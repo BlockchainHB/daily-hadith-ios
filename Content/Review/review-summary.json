@@ -1,0 +1,39 @@
+{
+  "reviewedCount": 118,
+  "totalCount": 118,
+  "statusCounts": {
+    "pass": 93,
+    "corrected": 23,
+    "needs_manual_review": 2
+  },
+  "confidenceCounts": {
+    "high": 116,
+    "medium": 2
+  },
+  "needsManualReview": [
+    {
+      "id": "hadith-023",
+      "sequence": 23,
+      "title": "Significance of Trade in Islam",
+      "confidence": "medium",
+      "issues": [
+        "Discrepancy in Quranic quotes between transcripts",
+        "Possible missing context on economic emphasis"
+      ],
+      "uncertaintyNote": "The two Urdu transcripts materially disagree in certain phrases and quotes, indicating possible errors or differences in source reporting."
+    },
+    {
+      "id": "hadith-111",
+      "sequence": 111,
+      "title": "Virtues of Spending in Allah's Path",
+      "confidence": "medium",
+      "issues": [
+        "Minor textual differences between transcripts."
+      ],
+      "uncertaintyNote": "The three Urdu transcripts mostly agree but have slight differences in wording, requiring further evaluation."
+    }
+  ],
+  "titleChangedCount": 114,
+  "translationChangedCount": 37,
+  "transcriptChangedCount": 2
+}

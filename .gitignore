@@ -1,0 +1,20 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Local source/import/export scratch space.
+exports/
+imports/
+
+# Xcode and local build output.
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Local duplicate created by Xcode while reconnecting signing.
+DailyHadith 2.xcodeproj/
+
+# Local duplicate import audio; canonical bundled audio lives under DailyHadithApp/Resources/Audio.
+Content/Audio/

@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "hadith-001",
+    "sequence": 1,
+    "audioFileName": "hadith-001.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 145.643,
+    "sourceFileName": "AUDIO-2025-08-07-23-12-16.aac",
+    "sourceModifiedAt": "2022-08-16T16:16:15.000Z",
+    "sourceFileSize": 1795501
+  },
+  {
+    "id": "hadith-002",
+    "sequence": 2,
+    "audioFileName": "hadith-002.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 304.683,
+    "sourceFileName": "AUDIO-2025-08-07-23-14-13.aac",
+    "sourceModifiedAt": "2022-08-17T15:48:33.000Z",
+    "sourceFileSize": 3756166
+  },
+  {
+    "id": "hadith-003",
+    "sequence": 3,
+    "audioFileName": "hadith-003.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 229.931,
+    "sourceFileName": "AUDIO-2025-08-07-23-14-13 2.aac",
+    "sourceModifiedAt": "2022-08-18T15:58:51.000Z",
+    "sourceFileSize": 2834665
+  },
+  {
+    "id": "hadith-004",
+    "sequence": 4,
+    "audioFileName": "hadith-004.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 409.621,
+    "sourceFileName": "AUDIO-2025-08-07-23-14-13 3.aac",
+    "sourceModifiedAt": "2022-08-19T17:46:23.000Z",
+    "sourceFileSize": 5049906
+  },
+  {
+    "id": "hadith-005",
+    "sequence": 5,
+    "audioFileName": "hadith-005.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 89.6,
+    "sourceFileName": "AUDIO-2025-08-07-23-14-13 4.aac",
+    "sourceModifiedAt": "2022-08-20T15:38:44.000Z",
+    "sourceFileSize": 1104600
+  },
+  {
+    "id": "hadith-006",
+    "sequence": 6,
+    "audioFileName": "hadith-006.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 77.568,
+    "sourceFileName": "AUDIO-2025-08-07-23-14-13 5.aac",
+    "sourceModifiedAt": "2022-08-22T15:52:52.000Z",
+    "sourceFileSize": 956268
+  },
+  {
+    "id": "hadith-007",
+    "sequence": 7,
+    "audioFileName": "hadith-007.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 254.016,
+    "sourceFileName": "AUDIO-2025-08-07-23-14-13 6.aac",
+    "sourceModifiedAt": "2022-08-23T16:11:07.000Z",
+    "sourceFileSize": 3131541
+  },
+  {
+    "id": "hadith-008",
+    "sequence": 8,
+    "audioFileName": "hadith-008.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 254.016,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-23.aac",
+    "sourceModifiedAt": "2022-08-23T16:11:07.000Z",
+    "sourceFileSize": 3131541
+  },
+  {
+    "id": "hadith-009",
+    "sequence": 9,
+    "audioFileName": "hadith-009.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 98.603,
+    "sourceFileName": "AUDIO-2025-08-07-23-14-13 7.aac",
+    "sourceModifiedAt": "2022-08-24T15:50:06.000Z",
+    "sourceFileSize": 1215586
+  },
+  {
+    "id": "hadith-010",
+    "sequence": 10,
+    "audioFileName": "hadith-010.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 98.603,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-23 2.aac",
+    "sourceModifiedAt": "2022-08-24T15:50:06.000Z",
+    "sourceFileSize": 1215586
+  },
+  {
+    "id": "hadith-011",
+    "sequence": 11,
+    "audioFileName": "hadith-011.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 148.821,
+    "sourceFileName": "AUDIO-2025-08-07-23-14-13 8.aac",
+    "sourceModifiedAt": "2022-08-25T15:53:45.000Z",
+    "sourceFileSize": 1834746
+  },
+  {
+    "id": "hadith-012",
+    "sequence": 12,
+    "audioFileName": "hadith-012.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 148.821,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-23 3.aac",
+    "sourceModifiedAt": "2022-08-25T15:53:45.000Z",
+    "sourceFileSize": 1834746
+  },
+  {
+    "id": "hadith-013",
+    "sequence": 13,
+    "audioFileName": "hadith-013.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 194.304,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-23 4.aac",
+    "sourceModifiedAt": "2022-08-26T15:58:02.000Z",
+    "sourceFileSize": 2395434
+  },
+  {
+    "id": "hadith-014",
+    "sequence": 14,
+    "audioFileName": "hadith-014.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 155.029,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-23 5.aac",
+    "sourceModifiedAt": "2022-08-29T15:55:35.000Z",
+    "sourceFileSize": 1911221
+  },
+  {
+    "id": "hadith-015",
+    "sequence": 15,
+    "audioFileName": "hadith-015.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 148.16,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24.aac",
+    "sourceModifiedAt": "2022-09-01T02:52:51.000Z",
+    "sourceFileSize": 1826535
+  },
+  {
+    "id": "hadith-016",
+    "sequence": 16,
+    "audioFileName": "hadith-016.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 152.299,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 2.aac",
+    "sourceModifiedAt": "2022-09-07T16:08:56.000Z",
+    "sourceFileSize": 1877557
+  },
+  {
+    "id": "hadith-017",
+    "sequence": 17,
+    "audioFileName": "hadith-017.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 295.872,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 3.aac",
+    "sourceModifiedAt": "2022-09-08T17:01:54.000Z",
+    "sourceFileSize": 3647547
+  },
+  {
+    "id": "hadith-018",
+    "sequence": 18,
+    "audioFileName": "hadith-018.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 176.555,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 4.aac",
+    "sourceModifiedAt": "2022-09-09T16:04:52.000Z",
+    "sourceFileSize": 2176588
+  },
+  {
+    "id": "hadith-019",
+    "sequence": 19,
+    "audioFileName": "hadith-019.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 171.371,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 5.aac",
+    "sourceModifiedAt": "2022-09-10T15:44:43.000Z",
+    "sourceFileSize": 2112679
+  },
+  {
+    "id": "hadith-020",
+    "sequence": 20,
+    "audioFileName": "hadith-020.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 169.813,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 6.aac",
+    "sourceModifiedAt": "2022-09-14T02:40:19.000Z",
+    "sourceFileSize": 2093480
+  },
+  {
+    "id": "hadith-021",
+    "sequence": 21,
+    "audioFileName": "hadith-021.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 115.136,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 7.aac",
+    "sourceModifiedAt": "2022-09-14T02:43:19.000Z",
+    "sourceFileSize": 1419411
+  },
+  {
+    "id": "hadith-022",
+    "sequence": 22,
+    "audioFileName": "hadith-022.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 61.803,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 8.aac",
+    "sourceModifiedAt": "2022-09-16T15:28:50.000Z",
+    "sourceFileSize": 761911
+  },
+  {
+    "id": "hadith-023",
+    "sequence": 23,
+    "audioFileName": "hadith-023.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 225.92,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 9.aac",
+    "sourceModifiedAt": "2022-09-20T16:01:40.000Z",
+    "sourceFileSize": 2785170
+  },
+  {
+    "id": "hadith-024",
+    "sequence": 24,
+    "audioFileName": "hadith-024.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 357.632,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 10.aac",
+    "sourceModifiedAt": "2022-09-21T16:18:15.000Z",
+    "sourceFileSize": 4408932
+  },
+  {
+    "id": "hadith-025",
+    "sequence": 25,
+    "audioFileName": "hadith-025.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 249.195,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 11.aac",
+    "sourceModifiedAt": "2022-09-22T16:04:44.000Z",
+    "sourceFileSize": 3072103
+  },
+  {
+    "id": "hadith-026",
+    "sequence": 26,
+    "audioFileName": "hadith-026.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 137.28,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 12.aac",
+    "sourceModifiedAt": "2022-09-23T16:06:14.000Z",
+    "sourceFileSize": 1692405
+  },
+  {
+    "id": "hadith-027",
+    "sequence": 27,
+    "audioFileName": "hadith-027.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 234.347,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 13.aac",
+    "sourceModifiedAt": "2022-09-26T15:40:00.000Z",
+    "sourceFileSize": 2889055
+  },
+  {
+    "id": "hadith-028",
+    "sequence": 28,
+    "audioFileName": "hadith-028.m4a",
+    "sourceExtension": ".aac",
+    "durationSeconds": 159.723,
+    "sourceFileName": "AUDIO-2025-08-07-23-16-24 14.aac",
+    "sourceModifiedAt": "2022-09-27T15:48:23.000Z",
+    "sourceFileSize": 1969081
+  },
+  {
+    "id": "hadith-029",
+    "sequence": 29,
+    "audioFileName": "hadith-029.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 159.936,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59.m4a",
+    "sourceModifiedAt": "2022-10-07T16:36:24.000Z",
+    "sourceFileSize": 1334559
+  },
+  {
+    "id": "hadith-030",
+    "sequence": 30,
+    "audioFileName": "hadith-030.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 54.613,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 2.m4a",
+    "sourceModifiedAt": "2022-10-11T09:30:09.000Z",
+    "sourceFileSize": 457679
+  },
+  {
+    "id": "hadith-031",
+    "sequence": 31,
+    "audioFileName": "hadith-031.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 75.883,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 3.m4a",
+    "sourceModifiedAt": "2022-10-11T09:30:10.000Z",
+    "sourceFileSize": 633852
+  },
+  {
+    "id": "hadith-032",
+    "sequence": 32,
+    "audioFileName": "hadith-032.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 42.944,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 4.m4a",
+    "sourceModifiedAt": "2022-10-11T21:30:53.000Z",
+    "sourceFileSize": 359591
+  },
+  {
+    "id": "hadith-033",
+    "sequence": 33,
+    "audioFileName": "hadith-033.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 122.283,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 5.m4a",
+    "sourceModifiedAt": "2022-10-12T23:12:56.000Z",
+    "sourceFileSize": 1021846
+  },
+  {
+    "id": "hadith-034",
+    "sequence": 34,
+    "audioFileName": "hadith-034.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 78.379,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 7.m4a",
+    "sourceModifiedAt": "2022-10-19T07:19:10.000Z",
+    "sourceFileSize": 655012
+  },
+  {
+    "id": "hadith-035",
+    "sequence": 35,
+    "audioFileName": "hadith-035.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 84.693,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 8.m4a",
+    "sourceModifiedAt": "2022-10-20T16:17:51.000Z",
+    "sourceFileSize": 700784
+  },
+  {
+    "id": "hadith-036",
+    "sequence": 36,
+    "audioFileName": "hadith-036.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 124.48,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 9.m4a",
+    "sourceModifiedAt": "2022-10-21T16:11:35.000Z",
+    "sourceFileSize": 1040122
+  },
+  {
+    "id": "hadith-037",
+    "sequence": 37,
+    "audioFileName": "hadith-037.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 218.069,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 10.m4a",
+    "sourceModifiedAt": "2022-10-28T14:42:28.000Z",
+    "sourceFileSize": 1819634
+  },
+  {
+    "id": "hadith-038",
+    "sequence": 38,
+    "audioFileName": "hadith-038.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 218.069,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56 2.m4a",
+    "sourceModifiedAt": "2022-10-28T14:42:28.000Z",
+    "sourceFileSize": 1819634
+  },
+  {
+    "id": "hadith-039",
+    "sequence": 39,
+    "audioFileName": "hadith-039.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 273.28,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 11.m4a",
+    "sourceModifiedAt": "2022-10-29T14:22:02.000Z",
+    "sourceFileSize": 2281556
+  },
+  {
+    "id": "hadith-040",
+    "sequence": 40,
+    "audioFileName": "hadith-040.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 170.923,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 12.m4a",
+    "sourceModifiedAt": "2022-10-30T15:06:20.000Z",
+    "sourceFileSize": 1427519
+  },
+  {
+    "id": "hadith-041",
+    "sequence": 41,
+    "audioFileName": "hadith-041.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 145.856,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 6.m4a",
+    "sourceModifiedAt": "2022-11-02T11:39:45.000Z",
+    "sourceFileSize": 1215659
+  },
+  {
+    "id": "hadith-042",
+    "sequence": 42,
+    "audioFileName": "hadith-042.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 164.907,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-40 2.m4a",
+    "sourceModifiedAt": "2022-11-06T14:53:05.000Z",
+    "sourceFileSize": 1376965
+  },
+  {
+    "id": "hadith-043",
+    "sequence": 43,
+    "audioFileName": "hadith-043.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 164.907,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 3.m4a",
+    "sourceModifiedAt": "2022-11-06T14:53:05.000Z",
+    "sourceFileSize": 1376965
+  },
+  {
+    "id": "hadith-044",
+    "sequence": 44,
+    "audioFileName": "hadith-044.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 64.043,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-40 3.m4a",
+    "sourceModifiedAt": "2022-11-09T16:38:34.000Z",
+    "sourceFileSize": 534872
+  },
+  {
+    "id": "hadith-045",
+    "sequence": 45,
+    "audioFileName": "hadith-045.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 176.619,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41.m4a",
+    "sourceModifiedAt": "2022-11-16T01:49:32.000Z",
+    "sourceFileSize": 1472948
+  },
+  {
+    "id": "hadith-046",
+    "sequence": 46,
+    "audioFileName": "hadith-046.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 117.653,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 2.m4a",
+    "sourceModifiedAt": "2022-11-17T15:45:30.000Z",
+    "sourceFileSize": 978024
+  },
+  {
+    "id": "hadith-047",
+    "sequence": 47,
+    "audioFileName": "hadith-047.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 230.592,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 3.m4a",
+    "sourceModifiedAt": "2022-11-19T14:59:14.000Z",
+    "sourceFileSize": 1926048
+  },
+  {
+    "id": "hadith-048",
+    "sequence": 48,
+    "audioFileName": "hadith-048.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 260.544,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 4.m4a",
+    "sourceModifiedAt": "2022-11-21T15:16:40.000Z",
+    "sourceFileSize": 2175855
+  },
+  {
+    "id": "hadith-049",
+    "sequence": 49,
+    "audioFileName": "hadith-049.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 102.592,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 5.m4a",
+    "sourceModifiedAt": "2022-11-24T18:15:29.000Z",
+    "sourceFileSize": 856256
+  },
+  {
+    "id": "hadith-050",
+    "sequence": 50,
+    "audioFileName": "hadith-050.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 204.416,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 6.m4a",
+    "sourceModifiedAt": "2022-11-25T19:19:19.000Z",
+    "sourceFileSize": 1708376
+  },
+  {
+    "id": "hadith-051",
+    "sequence": 51,
+    "audioFileName": "hadith-051.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 197.461,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 7.m4a",
+    "sourceModifiedAt": "2022-11-26T15:34:34.000Z",
+    "sourceFileSize": 1649941
+  },
+  {
+    "id": "hadith-052",
+    "sequence": 52,
+    "audioFileName": "hadith-052.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 133.013,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 8.m4a",
+    "sourceModifiedAt": "2022-11-28T18:24:04.000Z",
+    "sourceFileSize": 1111102
+  },
+  {
+    "id": "hadith-053",
+    "sequence": 53,
+    "audioFileName": "hadith-053.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 120.768,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 9.m4a",
+    "sourceModifiedAt": "2022-11-30T14:57:14.000Z",
+    "sourceFileSize": 1009022
+  },
+  {
+    "id": "hadith-054",
+    "sequence": 54,
+    "audioFileName": "hadith-054.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 122.133,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 10.m4a",
+    "sourceModifiedAt": "2022-12-02T14:57:36.000Z",
+    "sourceFileSize": 1018780
+  },
+  {
+    "id": "hadith-055",
+    "sequence": 55,
+    "audioFileName": "hadith-055.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 158.699,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 11.m4a",
+    "sourceModifiedAt": "2022-12-06T16:14:38.000Z",
+    "sourceFileSize": 1325427
+  },
+  {
+    "id": "hadith-056",
+    "sequence": 56,
+    "audioFileName": "hadith-056.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 200.171,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-40 4.m4a",
+    "sourceModifiedAt": "2022-12-08T03:12:48.000Z",
+    "sourceFileSize": 1671129
+  },
+  {
+    "id": "hadith-057",
+    "sequence": 57,
+    "audioFileName": "hadith-057.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 136.64,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-40.m4a",
+    "sourceModifiedAt": "2022-12-09T03:47:31.000Z",
+    "sourceFileSize": 1141328
+  },
+  {
+    "id": "hadith-058",
+    "sequence": 58,
+    "audioFileName": "hadith-058.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 234.667,
+    "sourceFileName": "AUDIO-2025-08-08-23-26-59 13.m4a",
+    "sourceModifiedAt": "2022-12-09T03:48:42.000Z",
+    "sourceFileSize": 1960665
+  },
+  {
+    "id": "hadith-059",
+    "sequence": 59,
+    "audioFileName": "hadith-059.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 222.784,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 12.m4a",
+    "sourceModifiedAt": "2022-12-09T15:00:21.000Z",
+    "sourceFileSize": 1856800
+  },
+  {
+    "id": "hadith-060",
+    "sequence": 60,
+    "audioFileName": "hadith-060.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 144.469,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 13.m4a",
+    "sourceModifiedAt": "2022-12-12T16:19:38.000Z",
+    "sourceFileSize": 1207481
+  },
+  {
+    "id": "hadith-061",
+    "sequence": 61,
+    "audioFileName": "hadith-061.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 221.824,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 14.m4a",
+    "sourceModifiedAt": "2022-12-13T15:01:47.000Z",
+    "sourceFileSize": 1847250
+  },
+  {
+    "id": "hadith-062",
+    "sequence": 62,
+    "audioFileName": "hadith-062.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 74.325,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 15.m4a",
+    "sourceModifiedAt": "2022-12-19T15:04:59.000Z",
+    "sourceFileSize": 617313
+  },
+  {
+    "id": "hadith-063",
+    "sequence": 63,
+    "audioFileName": "hadith-063.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 96.853,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 16.m4a",
+    "sourceModifiedAt": "2022-12-20T18:03:35.000Z",
+    "sourceFileSize": 807195
+  },
+  {
+    "id": "hadith-064",
+    "sequence": 64,
+    "audioFileName": "hadith-064.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 178.731,
+    "sourceFileName": "AUDIO-2025-08-25-21-40-41 17.m4a",
+    "sourceModifiedAt": "2022-12-21T15:18:53.000Z",
+    "sourceFileSize": 1488843
+  },
+  {
+    "id": "hadith-065",
+    "sequence": 65,
+    "audioFileName": "hadith-065.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 178.731,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 13.m4a",
+    "sourceModifiedAt": "2022-12-21T15:18:53.000Z",
+    "sourceFileSize": 1488843
+  },
+  {
+    "id": "hadith-066",
+    "sequence": 66,
+    "audioFileName": "hadith-066.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 99.819,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27.m4a",
+    "sourceModifiedAt": "2022-12-22T15:09:31.000Z",
+    "sourceFileSize": 832574
+  },
+  {
+    "id": "hadith-067",
+    "sequence": 67,
+    "audioFileName": "hadith-067.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 214.037,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 2.m4a",
+    "sourceModifiedAt": "2022-12-23T14:49:14.000Z",
+    "sourceFileSize": 1783885
+  },
+  {
+    "id": "hadith-068",
+    "sequence": 68,
+    "audioFileName": "hadith-068.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 209.387,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 3.m4a",
+    "sourceModifiedAt": "2022-12-26T16:04:45.000Z",
+    "sourceFileSize": 1750184
+  },
+  {
+    "id": "hadith-069",
+    "sequence": 69,
+    "audioFileName": "hadith-069.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 232.96,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 4.m4a",
+    "sourceModifiedAt": "2022-12-27T15:18:49.000Z",
+    "sourceFileSize": 1938736
+  },
+  {
+    "id": "hadith-070",
+    "sequence": 70,
+    "audioFileName": "hadith-070.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 255.019,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 5.m4a",
+    "sourceModifiedAt": "2022-12-29T15:20:50.000Z",
+    "sourceFileSize": 2126496
+  },
+  {
+    "id": "hadith-071",
+    "sequence": 71,
+    "audioFileName": "hadith-071.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 126.528,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 6.m4a",
+    "sourceModifiedAt": "2022-12-30T15:39:49.000Z",
+    "sourceFileSize": 1057449
+  },
+  {
+    "id": "hadith-072",
+    "sequence": 72,
+    "audioFileName": "hadith-072.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 175.573,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 7.m4a",
+    "sourceModifiedAt": "2022-12-31T15:41:02.000Z",
+    "sourceFileSize": 1463981
+  },
+  {
+    "id": "hadith-073",
+    "sequence": 73,
+    "audioFileName": "hadith-073.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 48.363,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 8.m4a",
+    "sourceModifiedAt": "2023-01-02T15:20:23.000Z",
+    "sourceFileSize": 401674
+  },
+  {
+    "id": "hadith-074",
+    "sequence": 74,
+    "audioFileName": "hadith-074.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 115.008,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 9.m4a",
+    "sourceModifiedAt": "2023-01-03T15:08:09.000Z",
+    "sourceFileSize": 955752
+  },
+  {
+    "id": "hadith-075",
+    "sequence": 75,
+    "audioFileName": "hadith-075.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 178.112,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 10.m4a",
+    "sourceModifiedAt": "2023-01-05T03:10:07.000Z",
+    "sourceFileSize": 1485476
+  },
+  {
+    "id": "hadith-076",
+    "sequence": 76,
+    "audioFileName": "hadith-076.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 160.747,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 11.m4a",
+    "sourceModifiedAt": "2023-01-05T15:32:18.000Z",
+    "sourceFileSize": 1340042
+  },
+  {
+    "id": "hadith-077",
+    "sequence": 77,
+    "audioFileName": "hadith-077.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 133.312,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 12.m4a",
+    "sourceModifiedAt": "2023-01-06T15:25:38.000Z",
+    "sourceFileSize": 1110409
+  },
+  {
+    "id": "hadith-078",
+    "sequence": 78,
+    "audioFileName": "hadith-078.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 133.312,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 7.m4a",
+    "sourceModifiedAt": "2023-01-06T15:25:38.000Z",
+    "sourceFileSize": 1110409
+  },
+  {
+    "id": "hadith-079",
+    "sequence": 79,
+    "audioFileName": "hadith-079.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 120.085,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 13.m4a",
+    "sourceModifiedAt": "2023-01-09T04:05:06.000Z",
+    "sourceFileSize": 994434
+  },
+  {
+    "id": "hadith-080",
+    "sequence": 80,
+    "audioFileName": "hadith-080.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 156.224,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 14.m4a",
+    "sourceModifiedAt": "2023-01-10T14:59:03.000Z",
+    "sourceFileSize": 1303761
+  },
+  {
+    "id": "hadith-081",
+    "sequence": 81,
+    "audioFileName": "hadith-081.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 152.192,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 15.m4a",
+    "sourceModifiedAt": "2023-01-11T15:54:38.000Z",
+    "sourceFileSize": 1269190
+  },
+  {
+    "id": "hadith-082",
+    "sequence": 82,
+    "audioFileName": "hadith-082.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 134.315,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 16.m4a",
+    "sourceModifiedAt": "2023-01-12T15:26:01.000Z",
+    "sourceFileSize": 1121489
+  },
+  {
+    "id": "hadith-083",
+    "sequence": 83,
+    "audioFileName": "hadith-083.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 182.144,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 17.m4a",
+    "sourceModifiedAt": "2023-01-13T14:58:28.000Z",
+    "sourceFileSize": 1521996
+  },
+  {
+    "id": "hadith-084",
+    "sequence": 84,
+    "audioFileName": "hadith-084.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 82.048,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 18.m4a",
+    "sourceModifiedAt": "2023-01-16T04:47:28.000Z",
+    "sourceFileSize": 681124
+  },
+  {
+    "id": "hadith-085",
+    "sequence": 85,
+    "audioFileName": "hadith-085.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 214.976,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 19.m4a",
+    "sourceModifiedAt": "2023-01-16T16:24:58.000Z",
+    "sourceFileSize": 1794656
+  },
+  {
+    "id": "hadith-086",
+    "sequence": 86,
+    "audioFileName": "hadith-086.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 41.877,
+    "sourceFileName": "AUDIO-2025-08-25-22-51-27 20.m4a",
+    "sourceModifiedAt": "2023-01-17T16:04:52.000Z",
+    "sourceFileSize": 349514
+  },
+  {
+    "id": "hadith-087",
+    "sequence": 87,
+    "audioFileName": "hadith-087.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 163.499,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-00.m4a",
+    "sourceModifiedAt": "2023-01-18T15:56:30.000Z",
+    "sourceFileSize": 1361163
+  },
+  {
+    "id": "hadith-088",
+    "sequence": 88,
+    "audioFileName": "hadith-088.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 288.32,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-00 2.m4a",
+    "sourceModifiedAt": "2023-01-21T15:16:06.000Z",
+    "sourceFileSize": 2403968
+  },
+  {
+    "id": "hadith-089",
+    "sequence": 89,
+    "audioFileName": "hadith-089.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 55.829,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-00 3.m4a",
+    "sourceModifiedAt": "2023-01-23T15:06:06.000Z",
+    "sourceFileSize": 466291
+  },
+  {
+    "id": "hadith-090",
+    "sequence": 90,
+    "audioFileName": "hadith-090.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 162.368,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-00 4.m4a",
+    "sourceModifiedAt": "2023-01-25T15:21:15.000Z",
+    "sourceFileSize": 1356722
+  },
+  {
+    "id": "hadith-091",
+    "sequence": 91,
+    "audioFileName": "hadith-091.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 179.136,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-00 5.m4a",
+    "sourceModifiedAt": "2023-01-30T15:48:02.000Z",
+    "sourceFileSize": 1494517
+  },
+  {
+    "id": "hadith-092",
+    "sequence": 92,
+    "audioFileName": "hadith-092.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 238.976,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01.m4a",
+    "sourceModifiedAt": "2023-02-01T15:22:50.000Z",
+    "sourceFileSize": 1994311
+  },
+  {
+    "id": "hadith-093",
+    "sequence": 93,
+    "audioFileName": "hadith-093.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 261.547,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 2.m4a",
+    "sourceModifiedAt": "2023-02-02T15:46:47.000Z",
+    "sourceFileSize": 2183292
+  },
+  {
+    "id": "hadith-094",
+    "sequence": 94,
+    "audioFileName": "hadith-094.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 17.963,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 4.m4a",
+    "sourceModifiedAt": "2023-02-09T15:37:10.000Z",
+    "sourceFileSize": 150018
+  },
+  {
+    "id": "hadith-095",
+    "sequence": 95,
+    "audioFileName": "hadith-095.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 159.765,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 5.m4a",
+    "sourceModifiedAt": "2023-02-11T16:06:17.000Z",
+    "sourceFileSize": 1333816
+  },
+  {
+    "id": "hadith-096",
+    "sequence": 96,
+    "audioFileName": "hadith-096.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 234.56,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 6.m4a",
+    "sourceModifiedAt": "2023-02-14T15:01:00.000Z",
+    "sourceFileSize": 1957570
+  },
+  {
+    "id": "hadith-097",
+    "sequence": 97,
+    "audioFileName": "hadith-097.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 154.901,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 8.m4a",
+    "sourceModifiedAt": "2023-02-17T14:59:41.000Z",
+    "sourceFileSize": 1291279
+  },
+  {
+    "id": "hadith-098",
+    "sequence": 98,
+    "audioFileName": "hadith-098.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 165.504,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 9.m4a",
+    "sourceModifiedAt": "2023-02-21T15:24:13.000Z",
+    "sourceFileSize": 1380670
+  },
+  {
+    "id": "hadith-099",
+    "sequence": 99,
+    "audioFileName": "hadith-099.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 102.357,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 10.m4a",
+    "sourceModifiedAt": "2023-02-22T15:30:25.000Z",
+    "sourceFileSize": 854281
+  },
+  {
+    "id": "hadith-100",
+    "sequence": 100,
+    "audioFileName": "hadith-100.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 298.56,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 11.m4a",
+    "sourceModifiedAt": "2023-02-23T23:37:42.000Z",
+    "sourceFileSize": 2493953
+  },
+  {
+    "id": "hadith-101",
+    "sequence": 101,
+    "audioFileName": "hadith-101.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 298.56,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56 4.m4a",
+    "sourceModifiedAt": "2023-02-23T23:37:42.000Z",
+    "sourceFileSize": 2493953
+  },
+  {
+    "id": "hadith-102",
+    "sequence": 102,
+    "audioFileName": "hadith-102.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 152.896,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 12.m4a",
+    "sourceModifiedAt": "2023-02-24T14:56:41.000Z",
+    "sourceFileSize": 1276078
+  },
+  {
+    "id": "hadith-103",
+    "sequence": 103,
+    "audioFileName": "hadith-103.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 67.115,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 14.m4a",
+    "sourceModifiedAt": "2023-02-27T15:25:22.000Z",
+    "sourceFileSize": 561158
+  },
+  {
+    "id": "hadith-104",
+    "sequence": 104,
+    "audioFileName": "hadith-104.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 126.059,
+    "sourceFileName": "AUDIO-2025-08-25-22-57-01 15.m4a",
+    "sourceModifiedAt": "2023-02-28T15:31:30.000Z",
+    "sourceFileSize": 1053349
+  },
+  {
+    "id": "hadith-105",
+    "sequence": 105,
+    "audioFileName": "hadith-105.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 161.408,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-55.m4a",
+    "sourceModifiedAt": "2023-03-01T15:12:07.000Z",
+    "sourceFileSize": 1348078
+  },
+  {
+    "id": "hadith-106",
+    "sequence": 106,
+    "audioFileName": "hadith-106.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 87.595,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-55 2.m4a",
+    "sourceModifiedAt": "2023-03-02T15:11:11.000Z",
+    "sourceFileSize": 731907
+  },
+  {
+    "id": "hadith-107",
+    "sequence": 107,
+    "audioFileName": "hadith-107.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 166.72,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-55 3.m4a",
+    "sourceModifiedAt": "2023-03-03T15:19:33.000Z",
+    "sourceFileSize": 1391906
+  },
+  {
+    "id": "hadith-108",
+    "sequence": 108,
+    "audioFileName": "hadith-108.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 113.131,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-55 4.m4a",
+    "sourceModifiedAt": "2023-03-05T15:39:11.000Z",
+    "sourceFileSize": 944556
+  },
+  {
+    "id": "hadith-109",
+    "sequence": 109,
+    "audioFileName": "hadith-109.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 220.16,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-55 5.m4a",
+    "sourceModifiedAt": "2023-03-06T15:03:19.000Z",
+    "sourceFileSize": 1837526
+  },
+  {
+    "id": "hadith-110",
+    "sequence": 110,
+    "audioFileName": "hadith-110.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 117.035,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-55 6.m4a",
+    "sourceModifiedAt": "2023-03-07T15:08:20.000Z",
+    "sourceFileSize": 976754
+  },
+  {
+    "id": "hadith-111",
+    "sequence": 111,
+    "audioFileName": "hadith-111.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 167.936,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-55 7.m4a",
+    "sourceModifiedAt": "2023-03-08T15:16:32.000Z",
+    "sourceFileSize": 1400862
+  },
+  {
+    "id": "hadith-112",
+    "sequence": 112,
+    "audioFileName": "hadith-112.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 82.923,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56.m4a",
+    "sourceModifiedAt": "2023-03-09T15:16:56.000Z",
+    "sourceFileSize": 693424
+  },
+  {
+    "id": "hadith-113",
+    "sequence": 113,
+    "audioFileName": "hadith-113.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 126.379,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56 3.m4a",
+    "sourceModifiedAt": "2023-03-14T15:07:15.000Z",
+    "sourceFileSize": 1054791
+  },
+  {
+    "id": "hadith-114",
+    "sequence": 114,
+    "audioFileName": "hadith-114.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 152.363,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56 5.m4a",
+    "sourceModifiedAt": "2023-03-17T15:04:17.000Z",
+    "sourceFileSize": 1271214
+  },
+  {
+    "id": "hadith-115",
+    "sequence": 115,
+    "audioFileName": "hadith-115.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 67.669,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56 6.m4a",
+    "sourceModifiedAt": "2023-03-20T15:19:32.000Z",
+    "sourceFileSize": 565047
+  },
+  {
+    "id": "hadith-116",
+    "sequence": 116,
+    "audioFileName": "hadith-116.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 87.68,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56 7.m4a",
+    "sourceModifiedAt": "2023-03-22T14:58:40.000Z",
+    "sourceFileSize": 732111
+  },
+  {
+    "id": "hadith-117",
+    "sequence": 117,
+    "audioFileName": "hadith-117.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 92.523,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56 8.m4a",
+    "sourceModifiedAt": "2023-04-02T00:58:55.000Z",
+    "sourceFileSize": 771799
+  },
+  {
+    "id": "hadith-118",
+    "sequence": 118,
+    "audioFileName": "hadith-118.m4a",
+    "sourceExtension": ".m4a",
+    "durationSeconds": 93.653,
+    "sourceFileName": "AUDIO-2025-09-12-22-51-56 9.m4a",
+    "sourceModifiedAt": "2023-04-03T03:57:54.000Z",
+    "sourceFileSize": 781763
+  }
+]

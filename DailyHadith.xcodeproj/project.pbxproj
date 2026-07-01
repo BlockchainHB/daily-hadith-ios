@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066441CE50500A844BA76509 /* DedicationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA676F1B672B4288905A7C36 /* DedicationSection.swift */; };
+		07BF62DACB39633887BC5A50 /* PlaybackState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F041B45C19CECEB0F30FA /* PlaybackState.swift */; };
+		134BA76539244377A22C2A4C /* HadithRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CB15B28660C2B0703F449A /* HadithRepository.swift */; };
+		1462E7B94D4695A8765E73FC /* PreviewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A092E907F02FE44A7C7CAAC1 /* PreviewFixtures.swift */; };
+		16D9FD0CFA102C29F417CDC5 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = 60F708C7D827437807627FD7 /* Audio */; };
+		1FBD261F49E5A37113643F7A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9B972E7D0AF6EC7751FB57B6 /* PrivacyInfo.xcprivacy */; };
+		2D17B4FD347B924AA53B84F7 /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375AAE72FBFEB5E33002597 /* AppTab.swift */; };
+		373CEB349BF09E5F954C78F2 /* LibraryLoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793948D4F361A68A38A7C063 /* LibraryLoadState.swift */; };
+		37400F10358DBC717B95D0D6 /* DailyHadithApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284023F3A5FA918F0A84695A /* DailyHadithApp.swift */; };
+		4586A91169BE162DA2EAAB5D /* AboutSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E59CF1EAEF3DCC62DFCC3C /* AboutSection.swift */; };
+		491E33CB080DBADCC02B793E /* StatusViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79376A8A91C9BC110186D50 /* StatusViews.swift */; };
+		4E78B3C35C9224B7EB91855E /* RootAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AF877E4F4BC65C9A0F728 /* RootAppView.swift */; };
+		60625F9614A485EFE48F9D89 /* HadithRowStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307DFF820D76EBFADA2C2C40 /* HadithRowStatus.swift */; };
+		74DF1888C12CA1DB3205767C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AECF16C1B2C6D0B7E147B5 /* SettingsView.swift */; };
+		75D36B31B32EE3D7F5FAD92A /* PlaybackStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E35DA4F80F52AE943933B2 /* PlaybackStore.swift */; };
+		79FE68FB8881A4BA8168160E /* CurrentHadithHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1861F2F8643A403523E00 /* CurrentHadithHeader.swift */; };
+		7D401D2F3BB5CE96B1EF51E3 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A600A2B776C1BF6DAAFC91A7 /* MiniPlayerView.swift */; };
+		7F72BDD028C4C26793AD0F60 /* AudioHadith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8D36423FFAE7BD7AB3239 /* AudioHadith.swift */; };
+		82B61ABA7DF7C47D0C464585 /* HadithRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37F7526D98FD0AAA6A05D1 /* HadithRow.swift */; };
+		83A94B9F3941D24471715DBE /* DurationFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296F97A4670F129D08A14CD /* DurationFormatter.swift */; };
+		9035214F328717E9D58B0E6A /* LibrarySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2E1998E13CA925F6334088 /* LibrarySnapshot.swift */; };
+		982611A2672303C4F208559B /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AABD2496D7C912CB514F0F /* LibraryView.swift */; };
+		A2DF5E3D444AEE54941BF59E /* hadiths.reviewed.json in Resources */ = {isa = PBXBuildFile; fileRef = F148DB63E0FD6F6B87768F50 /* hadiths.reviewed.json */; };
+		A513FB88E2FE232D8E3C729B /* PlayerBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD46D50FD97428900239433 /* PlayerBlock.swift */; };
+		B0B410F5A54A111F1D9C1E6D /* HadithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8750B673B4849905CD1185 /* HadithList.swift */; };
+		BA33DE7C3CBCF15E79638BB2 /* ManualCompletionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F5D1D511CCF93C9E1DD144 /* ManualCompletionMenu.swift */; };
+		C728ED768CD29AFE5776F062 /* TranslationExcerpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3A9CA18A8CF5E92DDE507 /* TranslationExcerpt.swift */; };
+		CE3C20931301086D768BA2AC /* CharitySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEBAF80660C754B4D890CA /* CharitySection.swift */; };
+		CFCD5AD6CC4EF730DF6D213F /* ListeningProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399E355ADC3C4C8C62082266 /* ListeningProgress.swift */; };
+		D152E3569F1EAA97C1C6734F /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A38DA209A832AE0911F45D0 /* AppTheme.swift */; };
+		D3A0436B5EC84B246B3BDEE2 /* ListeningProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F80891E2AB42FF9E58B344 /* ListeningProgressStore.swift */; };
+		D71E1585B0FB088DE9FDD3C0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D31A827522DA8411738082 /* HomeView.swift */; };
+		DF4B24D2B5B3F0BFA41AF28A /* PlaybackSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F07BE46CB681037656E94 /* PlaybackSettingsSection.swift */; };
+		E51F0F2B26C95896CCBF3407 /* PlayerSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFB91D3A7F2C349B608D4FD /* PlayerSurface.swift */; };
+		EAA27E95EBAE47B3B9604F6B /* TransportControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D43BE5D9DA6F9869B78405 /* TransportControls.swift */; };
+		F7B3900832A605A7CF939AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AFDAD46E2661A84A481830 /* Assets.xcassets */; };
+		FC0D465579323E23582F167A /* SettingsRowIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE582A7A64DE3EF34AF87B0E /* SettingsRowIcon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DFB91D3A7F2C349B608D4FD /* PlayerSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSurface.swift; sourceTree = "<group>"; };
+		21AFDAD46E2661A84A481830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284023F3A5FA918F0A84695A /* DailyHadithApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHadithApp.swift; sourceTree = "<group>"; };
+		29C82EBA122112E248A694F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2A38DA209A832AE0911F45D0 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		307DFF820D76EBFADA2C2C40 /* HadithRowStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithRowStatus.swift; sourceTree = "<group>"; };
+		313AF877E4F4BC65C9A0F728 /* RootAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAppView.swift; sourceTree = "<group>"; };
+		3296F97A4670F129D08A14CD /* DurationFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationFormatter.swift; sourceTree = "<group>"; };
+		36CB15B28660C2B0703F449A /* HadithRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithRepository.swift; sourceTree = "<group>"; };
+		399E355ADC3C4C8C62082266 /* ListeningProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningProgress.swift; sourceTree = "<group>"; };
+		43E59CF1EAEF3DCC62DFCC3C /* AboutSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSection.swift; sourceTree = "<group>"; };
+		47D31A827522DA8411738082 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		54F5D1D511CCF93C9E1DD144 /* ManualCompletionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualCompletionMenu.swift; sourceTree = "<group>"; };
+		5F2E1998E13CA925F6334088 /* LibrarySnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarySnapshot.swift; sourceTree = "<group>"; };
+		60F708C7D827437807627FD7 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Audio; path = DailyHadithApp/Resources/Audio; sourceTree = SOURCE_ROOT; };
+		6A8750B673B4849905CD1185 /* HadithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithList.swift; sourceTree = "<group>"; };
+		6DD8D36423FFAE7BD7AB3239 /* AudioHadith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHadith.swift; sourceTree = "<group>"; };
+		793948D4F361A68A38A7C063 /* LibraryLoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryLoadState.swift; sourceTree = "<group>"; };
+		7BDEBAF80660C754B4D890CA /* CharitySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharitySection.swift; sourceTree = "<group>"; };
+		81E35DA4F80F52AE943933B2 /* PlaybackStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackStore.swift; sourceTree = "<group>"; };
+		8CA3A9CA18A8CF5E92DDE507 /* TranslationExcerpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationExcerpt.swift; sourceTree = "<group>"; };
+		90AABD2496D7C912CB514F0F /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		9375AAE72FBFEB5E33002597 /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
+		93F80891E2AB42FF9E58B344 /* ListeningProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningProgressStore.swift; sourceTree = "<group>"; };
+		9B972E7D0AF6EC7751FB57B6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A092E907F02FE44A7C7CAAC1 /* PreviewFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewFixtures.swift; sourceTree = "<group>"; };
+		A600A2B776C1BF6DAAFC91A7 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
+		AA676F1B672B4288905A7C36 /* DedicationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedicationSection.swift; sourceTree = "<group>"; };
+		AFD46D50FD97428900239433 /* PlayerBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBlock.swift; sourceTree = "<group>"; };
+		B2D43BE5D9DA6F9869B78405 /* TransportControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportControls.swift; sourceTree = "<group>"; };
+		C5AECF16C1B2C6D0B7E147B5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C8B3A05AB56B1077249FC74F /* DailyHadith.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DailyHadith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE582A7A64DE3EF34AF87B0E /* SettingsRowIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowIcon.swift; sourceTree = "<group>"; };
+		E03F07BE46CB681037656E94 /* PlaybackSettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackSettingsSection.swift; sourceTree = "<group>"; };
+		E79376A8A91C9BC110186D50 /* StatusViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViews.swift; sourceTree = "<group>"; };
+		E8E1861F2F8643A403523E00 /* CurrentHadithHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentHadithHeader.swift; sourceTree = "<group>"; };
+		EF37F7526D98FD0AAA6A05D1 /* HadithRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithRow.swift; sourceTree = "<group>"; };
+		F10F041B45C19CECEB0F30FA /* PlaybackState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackState.swift; sourceTree = "<group>"; };
+		F148DB63E0FD6F6B87768F50 /* hadiths.reviewed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hadiths.reviewed.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		115F94F769794D4B587D8166 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				399E355ADC3C4C8C62082266 /* ListeningProgress.swift */,
+				93F80891E2AB42FF9E58B344 /* ListeningProgressStore.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		3B3DAE6ED1B9E727B12B0C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B3A05AB56B1077249FC74F /* DailyHadith.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422BCD7C40B3117E46F70884 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				43E59CF1EAEF3DCC62DFCC3C /* AboutSection.swift */,
+				7BDEBAF80660C754B4D890CA /* CharitySection.swift */,
+				AA676F1B672B4288905A7C36 /* DedicationSection.swift */,
+				E03F07BE46CB681037656E94 /* PlaybackSettingsSection.swift */,
+				C5AECF16C1B2C6D0B7E147B5 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		843D8304D65E63072A5434D8 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				2A38DA209A832AE0911F45D0 /* AppTheme.swift */,
+				1DFB91D3A7F2C349B608D4FD /* PlayerSurface.swift */,
+				CE582A7A64DE3EF34AF87B0E /* SettingsRowIcon.swift */,
+				E79376A8A91C9BC110186D50 /* StatusViews.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		8B5050D2AC1451808465BB8C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6A8750B673B4849905CD1185 /* HadithList.swift */,
+				EF37F7526D98FD0AAA6A05D1 /* HadithRow.swift */,
+				307DFF820D76EBFADA2C2C40 /* HadithRowStatus.swift */,
+				90AABD2496D7C912CB514F0F /* LibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		928AB3133A03D37360577477 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21AFDAD46E2661A84A481830 /* Assets.xcassets */,
+				60F708C7D827437807627FD7 /* Audio */,
+				F148DB63E0FD6F6B87768F50 /* hadiths.reviewed.json */,
+				9B972E7D0AF6EC7751FB57B6 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93B5D86AE85AF05F07CE8085 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9375AAE72FBFEB5E33002597 /* AppTab.swift */,
+				284023F3A5FA918F0A84695A /* DailyHadithApp.swift */,
+				793948D4F361A68A38A7C063 /* LibraryLoadState.swift */,
+				313AF877E4F4BC65C9A0F728 /* RootAppView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9677565C5DF6F8F775D3B160 /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				F10F041B45C19CECEB0F30FA /* PlaybackState.swift */,
+				81E35DA4F80F52AE943933B2 /* PlaybackStore.swift */,
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		A14D03F080F27B7CF65F52F1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E8E1861F2F8643A403523E00 /* CurrentHadithHeader.swift */,
+				47D31A827522DA8411738082 /* HomeView.swift */,
+				54F5D1D511CCF93C9E1DD144 /* ManualCompletionMenu.swift */,
+				A600A2B776C1BF6DAAFC91A7 /* MiniPlayerView.swift */,
+				AFD46D50FD97428900239433 /* PlayerBlock.swift */,
+				8CA3A9CA18A8CF5E92DDE507 /* TranslationExcerpt.swift */,
+				B2D43BE5D9DA6F9869B78405 /* TransportControls.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B04CC8707EF24A5CD0545231 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DD8D36423FFAE7BD7AB3239 /* AudioHadith.swift */,
+				3296F97A4670F129D08A14CD /* DurationFormatter.swift */,
+				36CB15B28660C2B0703F449A /* HadithRepository.swift */,
+				5F2E1998E13CA925F6334088 /* LibrarySnapshot.swift */,
+				A092E907F02FE44A7C7CAAC1 /* PreviewFixtures.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		CD32E1EFBF428024EF25AC6A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A14D03F080F27B7CF65F52F1 /* Home */,
+				8B5050D2AC1451808465BB8C /* Library */,
+				422BCD7C40B3117E46F70884 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D2EC1B59792507F981C90835 = {
+			isa = PBXGroup;
+			children = (
+				E1D7F649BB141295B73A5A24 /* DailyHadithApp */,
+				3B3DAE6ED1B9E727B12B0C28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1D7F649BB141295B73A5A24 /* DailyHadithApp */ = {
+			isa = PBXGroup;
+			children = (
+				29C82EBA122112E248A694F6 /* Info.plist */,
+				93B5D86AE85AF05F07CE8085 /* App */,
+				B04CC8707EF24A5CD0545231 /* Content */,
+				843D8304D65E63072A5434D8 /* DesignSystem */,
+				CD32E1EFBF428024EF25AC6A /* Features */,
+				9677565C5DF6F8F775D3B160 /* Playback */,
+				115F94F769794D4B587D8166 /* Progress */,
+				928AB3133A03D37360577477 /* Resources */,
+			);
+			path = DailyHadithApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23952D3560951A2295E6185E /* DailyHadith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A7C6B168546335A9BA00C4 /* Build configuration list for PBXNativeTarget "DailyHadith" */;
+			buildPhases = (
+				7CBD129BD8CBB3B398C86380 /* Sources */,
+				41699F72A41C4B8A5A5DB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyHadith;
+			packageProductDependencies = (
+			);
+			productName = DailyHadith;
+			productReference = C8B3A05AB56B1077249FC74F /* DailyHadith.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4276777629ACA29C70A59977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					23952D3560951A2295E6185E = {
+						DevelopmentTeam = G2537ZRGNU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 79C05E2A423B1DE8708ED6D5 /* Build configuration list for PBXProject "DailyHadith" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D2EC1B59792507F981C90835;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3B3DAE6ED1B9E727B12B0C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23952D3560951A2295E6185E /* DailyHadith */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41699F72A41C4B8A5A5DB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B3900832A605A7CF939AB2 /* Assets.xcassets in Resources */,
+				16D9FD0CFA102C29F417CDC5 /* Audio in Resources */,
+				1FBD261F49E5A37113643F7A /* PrivacyInfo.xcprivacy in Resources */,
+				A2DF5E3D444AEE54941BF59E /* hadiths.reviewed.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CBD129BD8CBB3B398C86380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4586A91169BE162DA2EAAB5D /* AboutSection.swift in Sources */,
+				2D17B4FD347B924AA53B84F7 /* AppTab.swift in Sources */,
+				D152E3569F1EAA97C1C6734F /* AppTheme.swift in Sources */,
+				7F72BDD028C4C26793AD0F60 /* AudioHadith.swift in Sources */,
+				CE3C20931301086D768BA2AC /* CharitySection.swift in Sources */,
+				79FE68FB8881A4BA8168160E /* CurrentHadithHeader.swift in Sources */,
+				37400F10358DBC717B95D0D6 /* DailyHadithApp.swift in Sources */,
+				066441CE50500A844BA76509 /* DedicationSection.swift in Sources */,
+				83A94B9F3941D24471715DBE /* DurationFormatter.swift in Sources */,
+				B0B410F5A54A111F1D9C1E6D /* HadithList.swift in Sources */,
+				134BA76539244377A22C2A4C /* HadithRepository.swift in Sources */,
+				82B61ABA7DF7C47D0C464585 /* HadithRow.swift in Sources */,
+				60625F9614A485EFE48F9D89 /* HadithRowStatus.swift in Sources */,
+				D71E1585B0FB088DE9FDD3C0 /* HomeView.swift in Sources */,
+				373CEB349BF09E5F954C78F2 /* LibraryLoadState.swift in Sources */,
+				9035214F328717E9D58B0E6A /* LibrarySnapshot.swift in Sources */,
+				982611A2672303C4F208559B /* LibraryView.swift in Sources */,
+				CFCD5AD6CC4EF730DF6D213F /* ListeningProgress.swift in Sources */,
+				D3A0436B5EC84B246B3BDEE2 /* ListeningProgressStore.swift in Sources */,
+				BA33DE7C3CBCF15E79638BB2 /* ManualCompletionMenu.swift in Sources */,
+				7D401D2F3BB5CE96B1EF51E3 /* MiniPlayerView.swift in Sources */,
+				DF4B24D2B5B3F0BFA41AF28A /* PlaybackSettingsSection.swift in Sources */,
+				07BF62DACB39633887BC5A50 /* PlaybackState.swift in Sources */,
+				75D36B31B32EE3D7F5FAD92A /* PlaybackStore.swift in Sources */,
+				A513FB88E2FE232D8E3C729B /* PlayerBlock.swift in Sources */,
+				E51F0F2B26C95896CCBF3407 /* PlayerSurface.swift in Sources */,
+				1462E7B94D4695A8765E73FC /* PreviewFixtures.swift in Sources */,
+				4E78B3C35C9224B7EB91855E /* RootAppView.swift in Sources */,
+				FC0D465579323E23582F167A /* SettingsRowIcon.swift in Sources */,
+				74DF1888C12CA1DB3205767C /* SettingsView.swift in Sources */,
+				491E33CB080DBADCC02B793E /* StatusViews.swift in Sources */,
+				C728ED768CD29AFE5776F062 /* TranslationExcerpt.swift in Sources */,
+				EAA27E95EBAE47B3B9604F6B /* TransportControls.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12196796BD7E6874444E51CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2537ZRGNU;
+				INFOPLIST_FILE = DailyHadithApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockchainhb.dailyhadith;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF49051C56BB557AFDE6CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2537ZRGNU;
+				INFOPLIST_FILE = DailyHadithApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockchainhb.dailyhadith;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C058F907528BBEA53777F268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E7C0D707E2FAE096DAF84C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C05E2A423B1DE8708ED6D5 /* Build configuration list for PBXProject "DailyHadith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C058F907528BBEA53777F268 /* Debug */,
+				E7C0D707E2FAE096DAF84C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84A7C6B168546335A9BA00C4 /* Build configuration list for PBXNativeTarget "DailyHadith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12196796BD7E6874444E51CC /* Debug */,
+				5FF49051C56BB557AFDE6CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4276777629ACA29C70A59977 /* Project object */;
+}
