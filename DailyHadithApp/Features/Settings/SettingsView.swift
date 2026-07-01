@@ -20,6 +20,8 @@ struct SettingsView: View {
             )
             DedicationSection()
         }
+        .scrollContentBackground(.hidden)
+        .background(AppTheme.warmBackground)
         .navigationTitle("Settings")
         .navigationBarTitleDisplayMode(.inline)
         .confirmationDialog(

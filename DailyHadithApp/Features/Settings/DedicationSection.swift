@@ -3,17 +3,18 @@ import SwiftUI
 struct DedicationSection: View {
     var body: some View {
         Section {
-            VStack(spacing: 6) {
+            VStack(spacing: 8) {
                 Text("Made for Kausar Bhatti")
-                    .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(.primary)
+                    .font(.body.weight(.semibold))
+                    .foregroundStyle(AppTheme.ink)
                 Text("With love, duas, and a hadith for each day.")
                     .font(.footnote)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
             }
             .frame(maxWidth: .infinity)
-            .padding(.vertical, 10)
+            .padding(.vertical, 18)
         }
+        .listRowBackground(Color.clear)
     }
 }

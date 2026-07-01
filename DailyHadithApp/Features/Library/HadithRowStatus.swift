@@ -9,11 +9,13 @@ struct HadithRowStatus: View {
         Group {
             if let symbolName {
                 Image(systemName: symbolName)
-                    .font(.system(size: 16, weight: .semibold))
+                    .font(.system(size: 14, weight: .semibold))
                     .foregroundStyle(color)
+                    .frame(width: 30, height: 30)
+                    .background(backgroundColor, in: Circle())
             }
         }
-        .frame(width: 24, height: 24)
+        .frame(width: 30, height: 30)
         .accessibilityHidden(true)
     }
 
@@ -24,8 +26,14 @@ struct HadithRowStatus: View {
     }
 
     private var color: Color {
-        if isPlaying { return AppTheme.primaryGreen }
-        if isListened { return .secondary }
+        if isPlaying { return .white }
+        if isListened { return AppTheme.primaryGreen }
         return Color(.tertiaryLabel)
+    }
+
+    private var backgroundColor: Color {
+        if isPlaying { return AppTheme.primaryGreen }
+        if isListened { return AppTheme.softGreen }
+        return .clear
     }
 }

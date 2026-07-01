@@ -6,7 +6,7 @@ struct PlaybackSettingsSection: View {
     var body: some View {
         Section("Reset") {
             Button(role: .destructive, action: resetProgress) {
-                HStack(spacing: 12) {
+                HStack(spacing: 11) {
                     SettingsRowIcon(systemName: "arrow.counterclockwise", color: .red)
                     Text("Reset Progress")
                 }

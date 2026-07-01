@@ -8,6 +8,7 @@ struct AudioHadith: Identifiable, Hashable, Decodable {
     let audioFileName: String
     let durationSeconds: TimeInterval
     let title: String
+    let titleUrdu: String?
     let summary: String
     let translation: String
     let uncertaintyNote: String

@@ -28,11 +28,12 @@
 		82B61ABA7DF7C47D0C464585 /* HadithRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37F7526D98FD0AAA6A05D1 /* HadithRow.swift */; };
 		83A94B9F3941D24471715DBE /* DurationFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296F97A4670F129D08A14CD /* DurationFormatter.swift */; };
 		9035214F328717E9D58B0E6A /* LibrarySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2E1998E13CA925F6334088 /* LibrarySnapshot.swift */; };
+		932713327BD357BAD307FC51 /* HomeHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05987A893AD153E5440DE98B /* HomeHero.swift */; };
 		982611A2672303C4F208559B /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AABD2496D7C912CB514F0F /* LibraryView.swift */; };
 		A2DF5E3D444AEE54941BF59E /* hadiths.reviewed.json in Resources */ = {isa = PBXBuildFile; fileRef = F148DB63E0FD6F6B87768F50 /* hadiths.reviewed.json */; };
 		A513FB88E2FE232D8E3C729B /* PlayerBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD46D50FD97428900239433 /* PlayerBlock.swift */; };
+		A92FD4E7F09F71AD1122E928 /* GlassSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E8442CCA31C38FAB79AC18 /* GlassSurface.swift */; };
 		B0B410F5A54A111F1D9C1E6D /* HadithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8750B673B4849905CD1185 /* HadithList.swift */; };
-		BA33DE7C3CBCF15E79638BB2 /* ManualCompletionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F5D1D511CCF93C9E1DD144 /* ManualCompletionMenu.swift */; };
 		C728ED768CD29AFE5776F062 /* TranslationExcerpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3A9CA18A8CF5E92DDE507 /* TranslationExcerpt.swift */; };
 		CE3C20931301086D768BA2AC /* CharitySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDEBAF80660C754B4D890CA /* CharitySection.swift */; };
 		CFCD5AD6CC4EF730DF6D213F /* ListeningProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399E355ADC3C4C8C62082266 /* ListeningProgress.swift */; };
@@ -40,14 +41,14 @@
 		D3A0436B5EC84B246B3BDEE2 /* ListeningProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F80891E2AB42FF9E58B344 /* ListeningProgressStore.swift */; };
 		D71E1585B0FB088DE9FDD3C0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D31A827522DA8411738082 /* HomeView.swift */; };
 		DF4B24D2B5B3F0BFA41AF28A /* PlaybackSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F07BE46CB681037656E94 /* PlaybackSettingsSection.swift */; };
-		E51F0F2B26C95896CCBF3407 /* PlayerSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFB91D3A7F2C349B608D4FD /* PlayerSurface.swift */; };
-		EAA27E95EBAE47B3B9604F6B /* TransportControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D43BE5D9DA6F9869B78405 /* TransportControls.swift */; };
+		F2D5B443E48F7C33D1CF4D03 /* WaveformProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44837A65D3AF5D35C819E16 /* WaveformProgressView.swift */; };
 		F7B3900832A605A7CF939AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AFDAD46E2661A84A481830 /* Assets.xcassets */; };
 		FC0D465579323E23582F167A /* SettingsRowIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE582A7A64DE3EF34AF87B0E /* SettingsRowIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1DFB91D3A7F2C349B608D4FD /* PlayerSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSurface.swift; sourceTree = "<group>"; };
+		05987A893AD153E5440DE98B /* HomeHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHero.swift; sourceTree = "<group>"; };
+		10E8442CCA31C38FAB79AC18 /* GlassSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassSurface.swift; sourceTree = "<group>"; };
 		21AFDAD46E2661A84A481830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284023F3A5FA918F0A84695A /* DailyHadithApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHadithApp.swift; sourceTree = "<group>"; };
 		29C82EBA122112E248A694F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		399E355ADC3C4C8C62082266 /* ListeningProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningProgress.swift; sourceTree = "<group>"; };
 		43E59CF1EAEF3DCC62DFCC3C /* AboutSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSection.swift; sourceTree = "<group>"; };
 		47D31A827522DA8411738082 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		54F5D1D511CCF93C9E1DD144 /* ManualCompletionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualCompletionMenu.swift; sourceTree = "<group>"; };
 		5F2E1998E13CA925F6334088 /* LibrarySnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarySnapshot.swift; sourceTree = "<group>"; };
 		60F708C7D827437807627FD7 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Audio; path = DailyHadithApp/Resources/Audio; sourceTree = SOURCE_ROOT; };
 		6A8750B673B4849905CD1185 /* HadithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithList.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		A600A2B776C1BF6DAAFC91A7 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 		AA676F1B672B4288905A7C36 /* DedicationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedicationSection.swift; sourceTree = "<group>"; };
 		AFD46D50FD97428900239433 /* PlayerBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBlock.swift; sourceTree = "<group>"; };
-		B2D43BE5D9DA6F9869B78405 /* TransportControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportControls.swift; sourceTree = "<group>"; };
+		C44837A65D3AF5D35C819E16 /* WaveformProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformProgressView.swift; sourceTree = "<group>"; };
 		C5AECF16C1B2C6D0B7E147B5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C8B3A05AB56B1077249FC74F /* DailyHadith.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DailyHadith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE582A7A64DE3EF34AF87B0E /* SettingsRowIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowIcon.swift; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				2A38DA209A832AE0911F45D0 /* AppTheme.swift */,
-				1DFB91D3A7F2C349B608D4FD /* PlayerSurface.swift */,
+				10E8442CCA31C38FAB79AC18 /* GlassSurface.swift */,
 				CE582A7A64DE3EF34AF87B0E /* SettingsRowIcon.swift */,
 				E79376A8A91C9BC110186D50 /* StatusViews.swift */,
 			);
@@ -175,12 +175,12 @@
 			isa = PBXGroup;
 			children = (
 				E8E1861F2F8643A403523E00 /* CurrentHadithHeader.swift */,
+				05987A893AD153E5440DE98B /* HomeHero.swift */,
 				47D31A827522DA8411738082 /* HomeView.swift */,
-				54F5D1D511CCF93C9E1DD144 /* ManualCompletionMenu.swift */,
 				A600A2B776C1BF6DAAFC91A7 /* MiniPlayerView.swift */,
 				AFD46D50FD97428900239433 /* PlayerBlock.swift */,
 				8CA3A9CA18A8CF5E92DDE507 /* TranslationExcerpt.swift */,
-				B2D43BE5D9DA6F9869B78405 /* TransportControls.swift */,
+				C44837A65D3AF5D35C819E16 /* WaveformProgressView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -313,30 +313,30 @@
 				37400F10358DBC717B95D0D6 /* DailyHadithApp.swift in Sources */,
 				066441CE50500A844BA76509 /* DedicationSection.swift in Sources */,
 				83A94B9F3941D24471715DBE /* DurationFormatter.swift in Sources */,
+				A92FD4E7F09F71AD1122E928 /* GlassSurface.swift in Sources */,
 				B0B410F5A54A111F1D9C1E6D /* HadithList.swift in Sources */,
 				134BA76539244377A22C2A4C /* HadithRepository.swift in Sources */,
 				82B61ABA7DF7C47D0C464585 /* HadithRow.swift in Sources */,
 				60625F9614A485EFE48F9D89 /* HadithRowStatus.swift in Sources */,
+				932713327BD357BAD307FC51 /* HomeHero.swift in Sources */,
 				D71E1585B0FB088DE9FDD3C0 /* HomeView.swift in Sources */,
 				373CEB349BF09E5F954C78F2 /* LibraryLoadState.swift in Sources */,
 				9035214F328717E9D58B0E6A /* LibrarySnapshot.swift in Sources */,
 				982611A2672303C4F208559B /* LibraryView.swift in Sources */,
 				CFCD5AD6CC4EF730DF6D213F /* ListeningProgress.swift in Sources */,
 				D3A0436B5EC84B246B3BDEE2 /* ListeningProgressStore.swift in Sources */,
-				BA33DE7C3CBCF15E79638BB2 /* ManualCompletionMenu.swift in Sources */,
 				7D401D2F3BB5CE96B1EF51E3 /* MiniPlayerView.swift in Sources */,
 				DF4B24D2B5B3F0BFA41AF28A /* PlaybackSettingsSection.swift in Sources */,
 				07BF62DACB39633887BC5A50 /* PlaybackState.swift in Sources */,
 				75D36B31B32EE3D7F5FAD92A /* PlaybackStore.swift in Sources */,
 				A513FB88E2FE232D8E3C729B /* PlayerBlock.swift in Sources */,
-				E51F0F2B26C95896CCBF3407 /* PlayerSurface.swift in Sources */,
 				1462E7B94D4695A8765E73FC /* PreviewFixtures.swift in Sources */,
 				4E78B3C35C9224B7EB91855E /* RootAppView.swift in Sources */,
 				FC0D465579323E23582F167A /* SettingsRowIcon.swift in Sources */,
 				74DF1888C12CA1DB3205767C /* SettingsView.swift in Sources */,
 				491E33CB080DBADCC02B793E /* StatusViews.swift in Sources */,
 				C728ED768CD29AFE5776F062 /* TranslationExcerpt.swift in Sources */,
-				EAA27E95EBAE47B3B9604F6B /* TransportControls.swift in Sources */,
+				F2D5B443E48F7C33D1CF4D03 /* WaveformProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

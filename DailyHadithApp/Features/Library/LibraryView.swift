@@ -37,6 +37,7 @@ struct LibraryView: View {
         .navigationTitle("Library")
         .navigationBarTitleDisplayMode(.inline)
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .automatic), prompt: "Search titles")
+        .background(AppTheme.warmBackground)
     }
 
     private func filteredHadiths(from snapshot: LibrarySnapshot) -> [AudioHadith] {

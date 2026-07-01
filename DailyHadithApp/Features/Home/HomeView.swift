@@ -18,66 +18,61 @@ struct HomeView: View {
                 loadedContent(snapshot)
             }
         }
-        .navigationTitle("Daily Hadith")
-        .navigationBarTitleDisplayMode(.inline)
     }
 
     private func loadedContent(_ snapshot: LibrarySnapshot) -> some View {
         let hadith = snapshot.hadith(id: progressStore.currentHadithID) ?? snapshot.first
 
         return ScrollView {
-            if let hadith {
-                VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
-                    CurrentHadithHeader(
-                        hadith: hadith,
-                        currentIndex: (snapshot.index(of: hadith.id) ?? 0) + 1,
-                        totalCount: snapshot.count
-                    )
+            VStack(spacing: 0) {
+                HomeHero()
 
-                    PlayerBlock(
-                        hadith: hadith,
-                        playbackStore: playbackStore,
-                        previous: { playPrevious(from: hadith, in: snapshot) },
-                        next: { playNext(from: hadith, in: snapshot) }
-                    )
+                if let hadith {
+                    VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
+                        VStack(alignment: .leading, spacing: 18) {
+                            CurrentHadithHeader(
+                                hadith: hadith
+                            )
 
-                    TranslationExcerpt(hadith: hadith)
-                }
-                .padding(.horizontal, AppTheme.screenPadding)
-                .padding(.top, 12)
-                .padding(.bottom, 104)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .onAppear {
-                    ensureLoaded(hadith)
-                }
-                .onChange(of: progressStore.currentHadithID) { _ in
-                    if let current = snapshot.hadith(id: progressStore.currentHadithID) {
-                        ensureLoaded(current)
+                            PlayerBlock(
+                                hadith: hadith,
+                                playbackStore: playbackStore,
+                                previous: {
+                                    move(to: snapshot.hadith(before: hadith.id), preservingPlayback: playbackStore.state.isPlaying)
+                                },
+                                next: {
+                                    move(to: snapshot.hadith(after: hadith.id), preservingPlayback: playbackStore.state.isPlaying)
+                                }
+                            )
+                        }
+                        .padding(.horizontal, 18)
+                        .padding(.top, 20)
+                        .padding(.bottom, 18)
+                        .glassSurface(cornerRadius: AppTheme.cardCornerRadius)
+
+                        TranslationExcerpt(hadith: hadith)
                     }
-                }
-                .onReceive(playbackStore.$elapsed) { elapsed in
-                    savePositionIfNeeded(elapsed)
+                    .padding(.horizontal, AppTheme.screenPadding)
+                    .padding(.top, -98)
+                    .padding(.bottom, 104)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .onAppear {
+                        ensureLoaded(hadith)
+                    }
+                    .onChange(of: progressStore.currentHadithID) { _ in
+                        if let current = snapshot.hadith(id: progressStore.currentHadithID) {
+                            ensureLoaded(current)
+                        }
+                    }
+                    .onReceive(playbackStore.$elapsed) { elapsed in
+                        savePositionIfNeeded(elapsed)
+                    }
                 }
             }
         }
         .background(AppTheme.warmBackground)
-        .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                ManualCompletionMenu(
-                    isListened: hadith.map { progressStore.isListened($0.id) } ?? false,
-                    markListened: {
-                        if let hadith {
-                            progressStore.markListened(hadith.id)
-                        }
-                    },
-                    markUnlistened: {
-                        if let hadith {
-                            progressStore.markUnlistened(hadith.id)
-                        }
-                    }
-                )
-            }
-        }
+        .ignoresSafeArea(.container, edges: .top)
+        .toolbar(.hidden, for: .navigationBar)
     }
 
     private func ensureLoaded(_ hadith: AudioHadith) {
@@ -85,19 +80,14 @@ struct HomeView: View {
         playbackStore.load(hadith: hadith, savedPosition: progressStore.playbackPosition(for: hadith.id))
     }
 
-    private func playNext(from hadith: AudioHadith, in snapshot: LibrarySnapshot) {
-        guard let next = snapshot.hadith(after: hadith.id) else { return }
-        play(next)
-    }
-
-    private func playPrevious(from hadith: AudioHadith, in snapshot: LibrarySnapshot) {
-        guard let previous = snapshot.hadith(before: hadith.id) else { return }
-        play(previous)
-    }
-
-    private func play(_ hadith: AudioHadith) {
+    private func move(to hadith: AudioHadith?, preservingPlayback shouldAutoplay: Bool) {
+        guard let hadith else { return }
         progressStore.setCurrentHadith(hadith.id)
-        playbackStore.load(hadith: hadith, savedPosition: progressStore.playbackPosition(for: hadith.id), autoplay: true)
+        playbackStore.load(
+            hadith: hadith,
+            savedPosition: progressStore.playbackPosition(for: hadith.id),
+            autoplay: shouldAutoplay
+        )
     }
 
     private func savePositionIfNeeded(_ elapsed: TimeInterval) {

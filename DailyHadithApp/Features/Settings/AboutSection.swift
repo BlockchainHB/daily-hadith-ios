@@ -11,18 +11,18 @@ struct AboutSection: View {
                 Text("\(libraryCount) audio hadiths")
                     .foregroundStyle(.secondary)
             } label: {
-                HStack(spacing: 12) {
+                HStack(spacing: 11) {
                     SettingsRowIcon(systemName: "music.note.list", color: AppTheme.primaryGreen)
                     Text("Library")
                 }
             }
 
             VStack(alignment: .leading, spacing: 8) {
-                HStack(alignment: .top, spacing: 12) {
+                HStack(alignment: .top, spacing: 11) {
                     SettingsRowIcon(systemName: "text.bubble.fill", color: AppTheme.mutedGold)
 
                     VStack(alignment: .leading, spacing: 5) {
-                        Text("English Translation")
+                        Text("Translation")
                             .font(.body)
                         Text("English text is generated from reviewed Urdu audio to preserve meaning. The Urdu audio remains the source of truth.")
                             .font(.footnote)
@@ -43,7 +43,7 @@ struct AboutSection: View {
                 Text(Bundle.main.appVersion)
                     .foregroundStyle(.secondary)
             } label: {
-                HStack(spacing: 12) {
+                HStack(spacing: 11) {
                     SettingsRowIcon(systemName: "info", color: .secondary)
                     Text("Version")
                 }

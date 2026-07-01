@@ -29,8 +29,12 @@ struct HadithList: View {
                     )
                 }
                 .buttonStyle(.plain)
+                .listRowInsets(EdgeInsets(top: 0, leading: AppTheme.screenPadding, bottom: 0, trailing: AppTheme.screenPadding))
+                .listRowBackground(AppTheme.warmBackground)
             }
             .listStyle(.plain)
+            .scrollContentBackground(.hidden)
+            .background(AppTheme.warmBackground)
         }
     }
 }
