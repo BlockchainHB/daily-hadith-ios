@@ -1,0 +1,990 @@
+[
+  {
+    "id": "hadith-001",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "The focus is on promoting unity and avoiding harmful social behaviors, which directly impacts family and community relations."
+  },
+  {
+    "id": "hadith-002",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The emphasis is on the Qur'anic validation of the Prophet's message, reflecting the themes of revelation and divine guidance."
+  },
+  {
+    "id": "hadith-003",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The main focus is on Allah’s mercy despite sins, encouraging hope and repentance."
+  },
+  {
+    "id": "hadith-004",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The passage highlights patience and calmness, which are key character traits rooted in faith and reliance on Allah."
+  },
+  {
+    "id": "hadith-005",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The lesson emphasizes reflection and good intentions in actions, which are character traits guided by spiritual faith."
+  },
+  {
+    "id": "hadith-006",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "Defining good character through fulfilling rights reflects strong personal conduct and responsibility rooted in faith."
+  },
+  {
+    "id": "hadith-007",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "This hadith specifically deals with the importance and obligations of Salah (prayer), a core act of worship."
+  },
+  {
+    "id": "hadith-008",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The focus is on the timely performance of Salah, reinforcing the worship theme without broader implications."
+  },
+  {
+    "id": "hadith-009",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Good morals and kind conduct are central to this hadith, emphasizing character."
+  },
+  {
+    "id": "hadith-010",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The emphasis is on good character as a blessing, with no additional themes needed."
+  },
+  {
+    "id": "hadith-011",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "medium",
+    "rationale": "The focus is on faith and contentment, representing trust in Allah and encompassing themes of personal conduct."
+  },
+  {
+    "id": "hadith-012",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ],
+    "confidence": "medium",
+    "rationale": "Faith in Allah and countering greed highlights trust and connection to livelihood through contentment."
+  },
+  {
+    "id": "hadith-013",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "This hadith emphasizes the insignificance of the world compared to the hereafter, focusing on faith and trust in what follows life."
+  },
+  {
+    "id": "hadith-014",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "medium",
+    "rationale": "The hadith focuses on accountability and readiness for Judgment, rooted in faith, with a secondary emphasis on acts of worship."
+  },
+  {
+    "id": "hadith-015",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "medium",
+    "rationale": "The prohibition of alcohol is rooted in character integrity and faith observance as a divine command."
+  },
+  {
+    "id": "hadith-016",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "The virtues of feeding others and greeting people highlight good character and foster community spirit."
+  },
+  {
+    "id": "hadith-017",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "The primary focus is on sending blessings on the Prophet, a form of Dhikr, with a secondary worship aspect."
+  },
+  {
+    "id": "hadith-018",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "Emphasizes the importance of remembering Allah, which is core to Dhikr and builds faith and trust."
+  },
+  {
+    "id": "hadith-019",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The primary focus is on being grateful for worship, with a connection to faith and reliance on Allah."
+  },
+  {
+    "id": "hadith-020",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "medium",
+    "rationale": "The prohibition is a matter of character in following divine guidance, anchored by faith in religious commands."
+  },
+  {
+    "id": "hadith-021",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "The lesson emphasizes moral conduct and societal responsibility, classifying it under 'Character' with 'Family & Community' as a secondary theme due to its community implications."
+  },
+  {
+    "id": "hadith-022",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith reflects the importance of prioritizing faith over worldly gains, aligning with 'Faith & Trust' and secondarily with 'Character' due to the moral aspect."
+  },
+  {
+    "id": "hadith-023",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Emphasizing lawful trade as a religious duty fits well under 'Livelihood & Charity' with a focus on ethical economic activities."
+  },
+  {
+    "id": "hadith-024",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The link between trade, blessings, and reliance on Allah suggests 'Livelihood & Charity' as primary, with 'Faith & Trust' as secondary to reflect reliance on divine support."
+  },
+  {
+    "id": "hadith-025",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "The emphasis on self-sufficiency and lawful provision aligns with 'Livelihood & Charity,' while 'Worship' is secondary due to the prayers for well-being."
+  },
+  {
+    "id": "hadith-026",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith centers on earning lawfully and charity, fitting 'Livelihood & Charity,' with an aspect of divine favor under 'Mercy & Repentance.'"
+  },
+  {
+    "id": "hadith-027",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "Focus on economic self-reliance and community development links to 'Livelihood & Charity,' with 'Family & Community' reflecting societal benefits."
+  },
+  {
+    "id": "hadith-028",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "Hazrat Umar's emphasis on economic strength alongside faith suggests 'Livelihood & Charity' with 'Faith & Trust' as a supporting theme."
+  },
+  {
+    "id": "hadith-029",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "The noble lineage emphasizes community and moral character, fitting best under 'Family & Community' with 'Character' as secondary."
+  },
+  {
+    "id": "hadith-030",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "quran-dhikr"
+    ],
+    "confidence": "high",
+    "rationale": "Seeking forgiveness is about divine mercy and repentance, placing this hadith in 'Mercy & Repentance,' with a focus on spiritual practices."
+  },
+  {
+    "id": "hadith-031",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Focusing on compensating missed fasts makes it best suited for 'Ramadan & Fasting' due to the specific reference to Ramadan duties."
+  },
+  {
+    "id": "hadith-032",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ],
+    "confidence": "high",
+    "rationale": "Highlighting the virtues of gentleness aligns with 'Character,' and its broader benefits suggest 'Mercy & Repentance' as secondary."
+  },
+  {
+    "id": "hadith-033",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ],
+    "confidence": "high",
+    "rationale": "The danger of greed touches on personal conduct and economic ethics, fitting 'Character' with 'Livelihood & Charity' as secondary."
+  },
+  {
+    "id": "hadith-034",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "The emphasis on community responsibility aligns with 'Family & Community,' while 'Character' reflects the moral duty."
+  },
+  {
+    "id": "hadith-035",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Discussions about commissions and gifts link directly to 'Livelihood & Charity' as it involves economic transactions."
+  },
+  {
+    "id": "hadith-036",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [],
+    "confidence": "medium",
+    "rationale": "Wiping the neck is a recommended act linked to religious practice, best fitting 'Worship' as it relates to ritual actions."
+  },
+  {
+    "id": "hadith-037",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Emphasizing Quran recitation and spiritual benefits fits squarely into 'Quran & Dhikr.'"
+  },
+  {
+    "id": "hadith-038",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The focus on the spiritual practice of Quran recitation makes 'Quran & Dhikr' the most appropriate theme."
+  },
+  {
+    "id": "hadith-039",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith is primarily about Allah's mercy, with 'Faith & Trust' as secondary due to the encouragement to remain hopeful."
+  },
+  {
+    "id": "hadith-040",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "Valuing faith over worldly gains aligns with 'Faith & Trust,' with some moral undertones suggesting 'Character.'"
+  },
+  {
+    "id": "hadith-041",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The hadith emphasizes seeking protection from negative traits like hypocrisy and bad character, aligning with personal conduct and faith."
+  },
+  {
+    "id": "hadith-042",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "Emphasizes assessing faith to avoid hypocrisy, mainly related to belief and character integrity."
+  },
+  {
+    "id": "hadith-043",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "Focuses on self-assessment of faith to prevent hypocrisy, linking to faith and personal diligence."
+  },
+  {
+    "id": "hadith-044",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "Addresses recognizing and condemning sin, essential for character building and maintaining faith."
+  },
+  {
+    "id": "hadith-045",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Controlling one's gaze relates to personal conduct and purity, part of both character and spiritual discipline."
+  },
+  {
+    "id": "hadith-046",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Encourages reciting Darood on Friday, focusing on remembrance and worship practices."
+  },
+  {
+    "id": "hadith-047",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Steadfastness is linked to maintaining faith and its practice involves worship."
+  },
+  {
+    "id": "hadith-048",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ],
+    "confidence": "high",
+    "rationale": "Stresses starting good practices and avoiding harmful ones, tied to character and social responsibility."
+  },
+  {
+    "id": "hadith-049",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "Discusses grave sins, impacting faith integrity and ethical behavior."
+  },
+  {
+    "id": "hadith-050",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "Highlights Allah's joy in forgiveness, emphasizing divine mercy and repentance."
+  },
+  {
+    "id": "hadith-051",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "Warns against oppression and stinginess, relating to ethical behavior and community harmony."
+  },
+  {
+    "id": "hadith-052",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Focuses on enjoining good, a social duty, and a form of religious obligation."
+  },
+  {
+    "id": "hadith-053",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Encourages promptness in good deeds, reflecting character and spiritual commitment."
+  },
+  {
+    "id": "hadith-054",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Discusses the optimal timing for charity, central to financial ethics and generosity."
+  },
+  {
+    "id": "hadith-055",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Emphasizes loving for others what you love for yourself, a key character trait."
+  },
+  {
+    "id": "hadith-056",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ],
+    "confidence": "high",
+    "rationale": "Focuses on human dependence on Allah, central to faith and divine mercy."
+  },
+  {
+    "id": "hadith-057",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Living by Islamic principles for a dignified life involves character and worship."
+  },
+  {
+    "id": "hadith-058",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "Encourages generosity, benefiting self and community, related to financial and social ethics."
+  },
+  {
+    "id": "hadith-059",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ],
+    "confidence": "high",
+    "rationale": "Stresses Quran recitation and aiding others, the former focused on dhikr, the latter on charity."
+  },
+  {
+    "id": "hadith-060",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "Defines all good deeds as charity, connected to everyday kindness and generosity principles."
+  },
+  {
+    "id": "hadith-061",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith about lending a milk-giving goat for charity aligns well with 'Livelihood & Charity' as it involves acts of generosity. 'Family & Community' also fits as it includes aiding others."
+  },
+  {
+    "id": "hadith-062",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The hadith on unjust land seizure is best classified under 'Livelihood & Charity' due to its emphasis on ethical dealings with property and fairness."
+  },
+  {
+    "id": "hadith-063",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "The emphasis on cleanliness and removing harm reflects 'Character.' As it involves mosques, 'Worship' is a relevant secondary theme due to the focus on maintaining places of worship."
+  },
+  {
+    "id": "hadith-064",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "This hadith underscores the significance of small good deeds, aligning with 'Character' as it pertains to personal conduct and attitude."
+  },
+  {
+    "id": "hadith-065",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Similar to hadith-064, this hadith focuses on valuing small good deeds as part of good character and conduct."
+  },
+  {
+    "id": "hadith-066",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "Describing the traits of a hypocrite primarily fits 'Faith & Trust,' as it relates to sincerity in belief. 'Character' is also relevant due to personal conduct."
+  },
+  {
+    "id": "hadith-067",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "medium",
+    "rationale": "The hadith warns against worldly temptations affecting one's conduct, which falls under 'Character.'"
+  },
+  {
+    "id": "hadith-068",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ],
+    "confidence": "high",
+    "rationale": "This Hadith Qudsi focuses on divine justice and reliance, underlining 'Faith & Trust.' 'Mercy & Repentance' is also a secondary theme due to mentions of forgiveness."
+  },
+  {
+    "id": "hadith-069",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "Emphasizing good character and fearing Allah, this hadith fits 'Character' and 'Faith & Trust.'"
+  },
+  {
+    "id": "hadith-070",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The guidance on trusting Allah and understanding divine decree aligns with 'Faith & Trust.'"
+  },
+  {
+    "id": "hadith-071",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The perception of sins as grave relates to 'Faith & Trust' because it involves awareness and fear of Allah."
+  },
+  {
+    "id": "hadith-072",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "medium",
+    "rationale": "Reflecting on the value of time relates to 'Faith & Trust' through emphasizing life's temporality. 'Character' fits due to moral behavior guidance."
+  },
+  {
+    "id": "hadith-073",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Relying on Allah for sustenance is directly related to 'Faith & Trust.'"
+  },
+  {
+    "id": "hadith-074",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Emphasizing daily acts of charity, this hadith fits well within 'Livelihood & Charity.'"
+  },
+  {
+    "id": "hadith-075",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Discussing permissible lying for peace falls under 'Character,' focusing on ethical conduct."
+  },
+  {
+    "id": "hadith-076",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Inner qualities over appearances directly relate to 'Character,' highlighting the importance of piety and sincerity."
+  },
+  {
+    "id": "hadith-077",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ],
+    "confidence": "high",
+    "rationale": "Supporting orphans aligns with 'Family & Community,' while also connecting with 'Livelihood & Charity' due to the charitable act involved."
+  },
+  {
+    "id": "hadith-078",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ],
+    "confidence": "high",
+    "rationale": "Similar to hadith-077, emphasizing care for orphans echoes 'Family & Community' and 'Livelihood & Charity.'"
+  },
+  {
+    "id": "hadith-079",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ],
+    "confidence": "high",
+    "rationale": "Support for widows places this hadith in 'Family & Community,' with 'Livelihood & Charity' as a secondary theme due to its focus on sustaining."
+  },
+  {
+    "id": "hadith-080",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The inclusivity of wedding invitations falls naturally under 'Family & Community,' focusing on social etiquette and fairness."
+  },
+  {
+    "id": "hadith-081",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The hadith primarily emphasizes Allah's mercy being greater than His wrath, which aligns with 'Mercy & Repentance'. It also touches on maintaining faith and trust in Allah's mercy, linking to 'Faith & Trust'."
+  },
+  {
+    "id": "hadith-082",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Emphasizing the recitation of Durood, particularly on Fridays, falls under 'Quran & Dhikr'. The act is a form of worship, supporting 'Worship' as a secondary theme."
+  },
+  {
+    "id": "hadith-083",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "The focus is on seeking forgiveness and the concept of repentance, aligning with 'Mercy & Repentance'. It also involves trusting in Allah's nature to forgive, relevant to 'Faith & Trust'."
+  },
+  {
+    "id": "hadith-084",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The hadith emphasizes maintaining family ties despite challenges, directly relating to 'Family & Community'."
+  },
+  {
+    "id": "hadith-085",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith highlights maintaining kinship ties alongside worship duties, fitting 'Family & Community'. 'Worship' is secondary due to the mentioned religious practices."
+  },
+  {
+    "id": "hadith-086",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "The focus on the father's importance aligns strongly with 'Family & Community'. It indirectly relates to 'Worship' as it touches on righteousness connected to parental respect."
+  },
+  {
+    "id": "hadith-087",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "Describing the importance of respecting parents aligns with 'Family & Community'. It also reflects on ethical conduct, making 'Character' a relevant secondary theme."
+  },
+  {
+    "id": "hadith-088",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "The hadith covers personal sins and societal interactions, aligning with 'Character'. It also discusses parents, linking to 'Family & Community'."
+  },
+  {
+    "id": "hadith-089",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Focusing on maintaining relationships with deceased parents' friends aligns with 'Family & Community'."
+  },
+  {
+    "id": "hadith-090",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith emphasizes acts of kindness towards deceased parents, fitting 'Family & Community', while also involving repentance and mercy as a path to Paradise."
+  },
+  {
+    "id": "hadith-091",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "Emphasizing mercy and respect pertains to 'Character'. Recognizing roles of the young and elders also supports 'Family & Community'."
+  },
+  {
+    "id": "hadith-092",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [],
+    "confidence": "medium",
+    "rationale": "Treating people by status is a social teaching focusing on 'Family & Community'."
+  },
+  {
+    "id": "hadith-093",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith highlights the influence of Quranic guidance on behavior, aligning with 'Quran & Dhikr'. It also illustrates faith in divine guidance, related to 'Faith & Trust'."
+  },
+  {
+    "id": "hadith-094",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "character"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith highlights the benefits of charity and forgiveness in personal and communal wealth, associated with 'Livelihood & Charity'. 'Character' is secondary due to personal growth insights."
+  },
+  {
+    "id": "hadith-095",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "The emphasis on personal responsibility and actions aligns with 'Faith & Trust'. The familial context supports 'Family & Community'."
+  },
+  {
+    "id": "hadith-096",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "Teaching about good and bad company relates to 'Character'. It indirectly touches on community relations, linking to 'Family & Community'."
+  },
+  {
+    "id": "hadith-097",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Focus on lawful earnings fits 'Livelihood & Charity'. This affects worship, as deeds are more accepted, supporting 'Worship'."
+  },
+  {
+    "id": "hadith-098",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Describing fasting in Shaban to prepare for Ramadan aligns strongly with 'Ramadan & Fasting'. It is also a worship act, supporting 'Worship'."
+  },
+  {
+    "id": "hadith-099",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [
+      "family-community"
+    ],
+    "confidence": "high",
+    "rationale": "Emphasizing teaching children to pray aligns primarily with 'Worship'. It also involves family responsibility, supporting 'Family & Community'."
+  },
+  {
+    "id": "hadith-100",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Encouraging Durood, especially on Fridays, pertains to 'Quran & Dhikr', involving the act of worship as a secondary theme."
+  },
+  {
+    "id": "hadith-101",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ],
+    "confidence": "high",
+    "rationale": "The hadith focuses on sending Salawat on the Prophet, which aligns with Quranic and Dhikr themes. It also mentions divine mercy, making 'mercy-repentance' a secondary theme."
+  },
+  {
+    "id": "hadith-102",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The hadith emphasizes serving elderly parents, directly relating to family and community duties."
+  },
+  {
+    "id": "hadith-103",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The emphasis on maintaining family ties for blessings directly relates to family and community themes."
+  },
+  {
+    "id": "hadith-104",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "worship"
+    ],
+    "confidence": "high",
+    "rationale": "Prioritizing service to parents over non-obligatory acts aligns with family duties and touches on worship priorities."
+  },
+  {
+    "id": "hadith-105",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ],
+    "confidence": "high",
+    "rationale": "Facing death with good assumptions about Allah emphasizes faith and trust, with a secondary focus on divine mercy."
+  },
+  {
+    "id": "hadith-106",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The hadith centers on seeking Allah's mercy and protection, fitting well within the mercy and repentance theme."
+  },
+  {
+    "id": "hadith-107",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ],
+    "confidence": "high",
+    "rationale": "Accepting gifts with sincerity involves character and intention, with a secondary focus on lawful means related to livelihood."
+  },
+  {
+    "id": "hadith-108",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The hadith emphasizes self-reliance and earning through honest labor, fitting well within livelihood and charity themes."
+  },
+  {
+    "id": "hadith-109",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The hadith discusses optional worship practices on Shab-e-Barat, aligning with the theme of worship practices."
+  },
+  {
+    "id": "hadith-110",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [],
+    "confidence": "medium",
+    "rationale": "Emphasizing specific nights for accepted prayers falls under worship, focusing on prayer practices and timings."
+  },
+  {
+    "id": "hadith-111",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "Spending in Allah's path is linked to charity and livelihood, with a faith aspect in trusting Allah's promise of rewards."
+  },
+  {
+    "id": "hadith-112",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Highlighting efforts in Quran recitation aligns directly with the Quran and Dhikr theme."
+  },
+  {
+    "id": "hadith-113",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ],
+    "confidence": "high",
+    "rationale": "This hadith centers on divine mercy and forgiveness, with an emphasis on faith in Allah’s proximity."
+  },
+  {
+    "id": "hadith-114",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "False oaths relate directly to character, discussing honesty and the moral implications of deceit."
+  },
+  {
+    "id": "hadith-115",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "The focus on preparation for Ramadan and fasting practices fits the Ramadan-specific theme."
+  },
+  {
+    "id": "hadith-116",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [],
+    "confidence": "high",
+    "rationale": "Describing unique Ramadan blessings ties directly to the Ramadan and fasting theme."
+  },
+  {
+    "id": "hadith-117",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [
+      "quran-dhikr"
+    ],
+    "confidence": "high",
+    "rationale": "The hadith highlights the acceptance of supplications during fasting, fitting the Ramadan theme, with a secondary aspect of Quranic prayers."
+  },
+  {
+    "id": "hadith-118",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [
+      "quran-dhikr"
+    ],
+    "confidence": "high",
+    "rationale": "Intercession of fasting and Quran during Ramadan naturally fits within both Ramadan and Quranic themes."
+  }
+]

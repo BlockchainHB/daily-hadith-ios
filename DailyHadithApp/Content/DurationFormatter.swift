@@ -6,6 +6,7 @@ enum DurationFormatter {
         let total = Int(seconds.rounded())
         let minutes = total / 60
         let remainingSeconds = total % 60
-        return "\(minutes):" + String(format: "%02d", remainingSeconds)
+        let paddedSeconds = remainingSeconds < 10 ? "0\(remainingSeconds)" : "\(remainingSeconds)"
+        return "\(minutes):\(paddedSeconds)"
     }
 }

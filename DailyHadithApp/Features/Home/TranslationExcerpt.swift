@@ -2,10 +2,13 @@ import SwiftUI
 
 struct TranslationExcerpt: View {
     let hadith: AudioHadith
+    private let paragraphs: [String]
+
     @State private var isExpanded = false
 
-    private var paragraphs: [String] {
-        TranslationParagraphFormatter.paragraphs(from: hadith.translation)
+    init(hadith: AudioHadith) {
+        self.hadith = hadith
+        self.paragraphs = TranslationParagraphFormatter.paragraphs(from: hadith.translation)
     }
 
     private var displayedParagraphs: [String] {

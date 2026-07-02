@@ -43,10 +43,10 @@ struct HomeHero: View {
     private var heroReadabilityWash: some View {
         LinearGradient(
             stops: [
-                .init(color: Color.white.opacity(0.82), location: 0),
-                .init(color: Color.white.opacity(0.66), location: 0.34),
-                .init(color: Color.white.opacity(0.20), location: 0.62),
-                .init(color: Color.white.opacity(0.02), location: 1)
+                .init(color: AppTheme.heroWash.opacity(0.82), location: 0),
+                .init(color: AppTheme.heroWash.opacity(0.66), location: 0.34),
+                .init(color: AppTheme.heroWash.opacity(0.20), location: 0.62),
+                .init(color: AppTheme.heroWash.opacity(0.02), location: 1)
             ],
             startPoint: .leading,
             endPoint: .trailing

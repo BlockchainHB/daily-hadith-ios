@@ -3,38 +3,42 @@ import SwiftUI
 struct HadithList: View {
     let hadiths: [AudioHadith]
     let totalCount: Int
-    let currentHadithID: AudioHadith.ID?
-    let playingHadithID: AudioHadith.ID?
     let isListened: (AudioHadith.ID) -> Bool
     let select: (AudioHadith) -> Void
 
     var body: some View {
-        if hadiths.isEmpty {
-            UnavailableStateView(
-                title: "No Results",
-                systemName: "magnifyingglass",
-                message: "Try a different search."
-            )
-        } else {
-            List(hadiths) { hadith in
-                Button {
-                    select(hadith)
-                } label: {
-                    HadithRow(
-                        hadith: hadith,
-                        totalCount: totalCount,
-                        isCurrent: hadith.id == currentHadithID,
-                        isPlaying: hadith.id == playingHadithID,
-                        isListened: isListened(hadith.id)
-                    )
+        LazyVStack(spacing: 0) {
+            if hadiths.isEmpty {
+                UnavailableStateView(
+                    title: "No Results",
+                    systemName: "magnifyingglass",
+                    message: "Try a different search."
+                )
+                .padding(.top, 40)
+                .padding(.horizontal, AppTheme.screenPadding)
+            } else {
+                ForEach(hadiths.indices, id: \.self) { index in
+                    let hadith = hadiths[index]
+
+                    Button {
+                        select(hadith)
+                    } label: {
+                        HadithRow(
+                            hadith: hadith,
+                            totalCount: totalCount,
+                            isListened: isListened(hadith.id)
+                        )
+                    }
+                    .buttonStyle(.plain)
+
+                    if index < hadiths.index(before: hadiths.endIndex) {
+                        Divider()
+                            .padding(.leading, 72)
+                    }
                 }
-                .buttonStyle(.plain)
-                .listRowInsets(EdgeInsets(top: 0, leading: AppTheme.screenPadding, bottom: 0, trailing: AppTheme.screenPadding))
-                .listRowBackground(AppTheme.warmBackground)
+                .padding(.horizontal, AppTheme.screenPadding)
             }
-            .listStyle(.plain)
-            .scrollContentBackground(.hidden)
-            .background(AppTheme.warmBackground)
         }
+        .background(AppTheme.warmBackground)
     }
 }

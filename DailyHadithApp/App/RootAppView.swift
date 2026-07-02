@@ -5,6 +5,7 @@ struct RootAppView: View {
     @StateObject private var progressStore = ListeningProgressStore()
     @State private var selectedTab: AppTab = .home
     @State private var libraryLoadState: LibraryLoadState = .loading
+    @State private var playbackOrigin: PlaybackOrigin = .daily
 
     private let repository = HadithRepository()
 
@@ -56,14 +57,19 @@ struct RootAppView: View {
             HomeView(
                 loadState: libraryLoadState,
                 playbackStore: playbackStore,
-                progressStore: progressStore
+                progressStore: progressStore,
+                onDailyPlaybackActivated: {
+                    playbackOrigin = .daily
+                }
             )
         case .library:
             LibraryView(
                 loadState: libraryLoadState,
                 playbackStore: playbackStore,
                 progressStore: progressStore,
-                openHome: { selectedTab = .home }
+                onLibraryPlaybackStarted: {
+                    playbackOrigin = .library
+                }
             )
         case .settings:
             SettingsView(
@@ -76,6 +82,7 @@ struct RootAppView: View {
 
     private var shouldShowMiniPlayer: Bool {
         selectedTab == .library &&
+            playbackOrigin == .library &&
             libraryLoadState.snapshot != nil &&
             playbackStore.currentHadithID != nil &&
             playbackStore.shouldShowMiniPlayer
@@ -87,8 +94,7 @@ struct RootAppView: View {
            let hadith = playbackStore.currentHadith(in: snapshot) {
             MiniPlayerView(
                 hadith: hadith,
-                playbackStore: playbackStore,
-                openHome: { selectedTab = .home }
+                playbackStore: playbackStore
             )
         }
     }
@@ -100,6 +106,7 @@ struct RootAppView: View {
             libraryLoadState = .loaded(snapshot)
             if playbackStore.currentHadithID == nil,
                let current = snapshot.hadith(id: progressStore.currentHadithID) ?? snapshot.first {
+                playbackOrigin = .daily
                 playbackStore.load(hadith: current, savedPosition: progressStore.playbackPosition(for: current.id))
             }
         } catch {
@@ -110,6 +117,7 @@ struct RootAppView: View {
     private func handleCompletedHadith(_ completedID: AudioHadith.ID) {
         guard let snapshot = libraryLoadState.snapshot else { return }
         progressStore.markListened(completedID)
+        guard completedID == progressStore.currentHadithID else { return }
         let next = snapshot.hadith(after: completedID) ?? snapshot.first
         guard let next else { return }
         progressStore.setCurrentHadith(next.id)
@@ -124,4 +132,9 @@ private extension LibraryLoadState {
         }
         return nil
     }
+}
+
+private enum PlaybackOrigin {
+    case daily
+    case library
 }

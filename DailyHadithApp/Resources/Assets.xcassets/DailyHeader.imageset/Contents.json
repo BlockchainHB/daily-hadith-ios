@@ -3,6 +3,16 @@
     {
       "filename" : "DailyHeader.png",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "DailyHeaderDark.png",
+      "idiom" : "universal"
     }
   ],
   "info" : {

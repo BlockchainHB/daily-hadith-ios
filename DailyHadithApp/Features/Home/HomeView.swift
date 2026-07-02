@@ -2,8 +2,9 @@ import SwiftUI
 
 struct HomeView: View {
     let loadState: LibraryLoadState
-    @ObservedObject var playbackStore: PlaybackStore
+    let playbackStore: PlaybackStore
     @ObservedObject var progressStore: ListeningProgressStore
+    let onDailyPlaybackActivated: () -> Void
 
     @State private var lastSavedPosition: TimeInterval = 0
 
@@ -57,6 +58,7 @@ struct HomeView: View {
                     .padding(.bottom, 104)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .onAppear {
+                        onDailyPlaybackActivated()
                         ensureLoaded(hadith)
                     }
                     .onChange(of: progressStore.currentHadithID) { _ in
@@ -77,11 +79,13 @@ struct HomeView: View {
 
     private func ensureLoaded(_ hadith: AudioHadith) {
         guard playbackStore.currentHadithID != hadith.id else { return }
+        onDailyPlaybackActivated()
         playbackStore.load(hadith: hadith, savedPosition: progressStore.playbackPosition(for: hadith.id))
     }
 
     private func move(to hadith: AudioHadith?, preservingPlayback shouldAutoplay: Bool) {
         guard let hadith else { return }
+        onDailyPlaybackActivated()
         progressStore.setCurrentHadith(hadith.id)
         playbackStore.load(
             hadith: hadith,
@@ -102,7 +106,8 @@ struct HomeView: View {
     HomeView(
         loadState: .loaded(PreviewFixtures.snapshot),
         playbackStore: PlaybackStore(),
-        progressStore: ListeningProgressStore(defaults: .preview)
+        progressStore: ListeningProgressStore(defaults: .preview),
+        onDailyPlaybackActivated: {}
     )
 }
 
@@ -110,6 +115,7 @@ struct HomeView: View {
     HomeView(
         loadState: .failed("Preview missing resource."),
         playbackStore: PlaybackStore(),
-        progressStore: ListeningProgressStore(defaults: .preview)
+        progressStore: ListeningProgressStore(defaults: .preview),
+        onDailyPlaybackActivated: {}
     )
 }

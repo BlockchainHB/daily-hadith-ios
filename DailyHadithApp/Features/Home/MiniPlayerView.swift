@@ -3,24 +3,11 @@ import SwiftUI
 struct MiniPlayerView: View {
     let hadith: AudioHadith
     @ObservedObject var playbackStore: PlaybackStore
-    let openHome: () -> Void
 
     var body: some View {
         HStack(spacing: 12) {
-            Button(action: openHome) {
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(hadith.title)
-                        .font(.subheadline.weight(.semibold))
-                        .lineLimit(1)
-                    Text("\(DurationFormatter.format(playbackStore.elapsed)) / \(hadith.durationText)")
-                        .font(.caption.monospacedDigit())
-                        .foregroundStyle(.secondary)
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .contentShape(Rectangle())
-            }
-            .buttonStyle(.plain)
-            .layoutPriority(1)
+            titleStack
+                .layoutPriority(1)
 
             Button(action: playbackStore.togglePlay) {
                 Image(systemName: playbackStore.state.isPlaying ? "pause.fill" : "play.fill")
@@ -33,6 +20,19 @@ struct MiniPlayerView: View {
         .padding(.horizontal, 16)
         .padding(.vertical, 9)
         .frame(maxWidth: .infinity, minHeight: 62)
+    }
+
+    private var titleStack: some View {
+        VStack(alignment: .leading, spacing: 3) {
+            Text(hadith.title)
+                .font(.subheadline.weight(.semibold))
+                .lineLimit(1)
+            Text("\(DurationFormatter.format(playbackStore.elapsed)) / \(hadith.durationText)")
+                .font(.caption.monospacedDigit())
+                .foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .contentShape(Rectangle())
     }
 }
 

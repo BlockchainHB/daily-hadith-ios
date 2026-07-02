@@ -16,7 +16,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-001.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-001.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-002",
@@ -35,7 +39,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-002.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-002.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-003",
@@ -54,7 +62,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-003.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-003.reviewed.urdu.txt",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-004",
@@ -73,7 +85,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-004.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-004.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-005",
@@ -92,7 +108,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-005.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-005.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-006",
@@ -111,7 +131,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-006.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-006.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-007",
@@ -130,7 +154,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-007.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-007.reviewed.urdu.txt",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-008",
@@ -149,7 +175,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-008.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-008.reviewed.urdu.txt",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-009",
@@ -170,7 +198,9 @@
     "reviewIssues": [
       "The translation needed to be refined for clarity and accuracy."
     ],
-    "reviewedTranscriptFileName": "hadith-009.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-009.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-010",
@@ -189,7 +219,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-010.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-010.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-011",
@@ -208,7 +240,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-011.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-011.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-012",
@@ -227,7 +263,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-012.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-012.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ]
   },
   {
     "id": "hadith-013",
@@ -246,7 +286,9 @@
     "reviewStatus": "corrected",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-013.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-013.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-014",
@@ -265,7 +307,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-014.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-014.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-015",
@@ -286,7 +332,11 @@
     "reviewIssues": [
       "Translation misalignment with detailed hadith examples."
     ],
-    "reviewedTranscriptFileName": "hadith-015.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-015.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-016",
@@ -305,7 +355,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-016.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-016.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-017",
@@ -324,7 +378,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-017.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-017.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-018",
@@ -343,7 +401,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-018.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-018.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-019",
@@ -362,7 +424,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-019.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-019.reviewed.urdu.txt",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-020",
@@ -381,7 +447,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-020.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-020.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-021",
@@ -400,7 +470,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-021.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-021.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-022",
@@ -419,7 +493,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-022.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-022.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-023",
@@ -441,7 +519,9 @@
       "Discrepancy in Quranic quotes between transcripts",
       "Possible missing context on economic emphasis"
     ],
-    "reviewedTranscriptFileName": "hadith-023.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-023.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-024",
@@ -460,7 +540,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-024.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-024.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-025",
@@ -479,7 +563,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-025.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-025.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-026",
@@ -498,7 +586,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-026.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-026.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ]
   },
   {
     "id": "hadith-027",
@@ -517,7 +609,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-027.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-027.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-028",
@@ -538,7 +634,11 @@
     "reviewIssues": [
       "Title contained inaccuracies regarding specific sayings."
     ],
-    "reviewedTranscriptFileName": "hadith-028.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-028.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-029",
@@ -557,7 +657,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-029.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-029.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-030",
@@ -576,7 +680,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-030.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-030.reviewed.urdu.txt",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "quran-dhikr"
+    ]
   },
   {
     "id": "hadith-031",
@@ -595,7 +703,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-031.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-031.reviewed.urdu.txt",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-032",
@@ -614,7 +724,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-032.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-032.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ]
   },
   {
     "id": "hadith-033",
@@ -635,7 +749,11 @@
     "reviewIssues": [
       "Translation refined for clarity"
     ],
-    "reviewedTranscriptFileName": "hadith-033.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-033.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ]
   },
   {
     "id": "hadith-034",
@@ -654,7 +772,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-034.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-034.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-035",
@@ -673,7 +795,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-035.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-035.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-036",
@@ -692,7 +816,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-036.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-036.reviewed.urdu.txt",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-037",
@@ -713,7 +839,9 @@
     "reviewIssues": [
       "Minor drift adjustments for clarity"
     ],
-    "reviewedTranscriptFileName": "hadith-037.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-037.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-038",
@@ -732,7 +860,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-038.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-038.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-039",
@@ -751,7 +881,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-039.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-039.reviewed.urdu.txt",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-040",
@@ -770,7 +904,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-040.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-040.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-041",
@@ -789,7 +927,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-041.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-041.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-042",
@@ -810,7 +952,11 @@
     "reviewIssues": [
       "Title needed correction for clarity"
     ],
-    "reviewedTranscriptFileName": "hadith-042.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-042.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-043",
@@ -831,7 +977,11 @@
     "reviewIssues": [
       "Translation did not fully capture the original"
     ],
-    "reviewedTranscriptFileName": "hadith-043.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-043.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-044",
@@ -850,7 +1000,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-044.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-044.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-045",
@@ -869,7 +1023,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-045.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-045.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-046",
@@ -888,7 +1046,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-046.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-046.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-047",
@@ -907,7 +1069,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-047.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-047.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-048",
@@ -926,7 +1092,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-048.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-048.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ]
   },
   {
     "id": "hadith-049",
@@ -945,7 +1115,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-049.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-049.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-050",
@@ -964,7 +1138,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-050.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-050.reviewed.urdu.txt",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-051",
@@ -983,7 +1161,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-051.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-051.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-052",
@@ -1002,7 +1184,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-052.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-052.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-053",
@@ -1021,7 +1207,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-053.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-053.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-054",
@@ -1040,7 +1230,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-054.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-054.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-055",
@@ -1059,7 +1251,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-055.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-055.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-056",
@@ -1078,7 +1272,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-056.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-056.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ]
   },
   {
     "id": "hadith-057",
@@ -1099,7 +1297,11 @@
     "reviewIssues": [
       "Retitled for clarity"
     ],
-    "reviewedTranscriptFileName": "hadith-057.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-057.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-058",
@@ -1118,7 +1320,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-058.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-058.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-059",
@@ -1137,7 +1343,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-059.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-059.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ]
   },
   {
     "id": "hadith-060",
@@ -1156,7 +1366,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-060.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-060.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-061",
@@ -1175,7 +1389,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-061.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-061.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-062",
@@ -1194,7 +1412,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-062.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-062.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-063",
@@ -1213,7 +1433,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-063.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-063.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-064",
@@ -1232,7 +1456,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-064.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-064.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-065",
@@ -1251,7 +1477,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-065.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-065.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-066",
@@ -1270,7 +1498,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-066.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-066.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-067",
@@ -1291,7 +1523,9 @@
     "reviewIssues": [
       "Original translation included an unwarranted example of Balaam bin Ba'ura."
     ],
-    "reviewedTranscriptFileName": "hadith-067.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-067.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-068",
@@ -1310,7 +1544,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-068.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-068.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ]
   },
   {
     "id": "hadith-069",
@@ -1331,7 +1569,11 @@
     "reviewIssues": [
       "Minor grammatical corrections to enhance clarity."
     ],
-    "reviewedTranscriptFileName": "hadith-069.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-069.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-070",
@@ -1350,7 +1592,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-070.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-070.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-071",
@@ -1369,7 +1613,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-071.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-071.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-072",
@@ -1391,7 +1637,11 @@
       "Title was not reflective of core message.",
       "Summary needed adjustment for clarity."
     ],
-    "reviewedTranscriptFileName": "hadith-072.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-072.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-073",
@@ -1412,7 +1662,9 @@
     "reviewIssues": [
       "Minor wording issues corrected."
     ],
-    "reviewedTranscriptFileName": "hadith-073.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-073.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-074",
@@ -1431,7 +1683,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-074.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-074.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-075",
@@ -1450,7 +1704,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-075.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-075.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-076",
@@ -1469,7 +1725,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-076.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-076.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-077",
@@ -1490,7 +1748,11 @@
     "reviewIssues": [
       "Minor differences in wording."
     ],
-    "reviewedTranscriptFileName": "hadith-077.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-077.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ]
   },
   {
     "id": "hadith-078",
@@ -1509,7 +1771,11 @@
     "reviewStatus": "corrected",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-078.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-078.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ]
   },
   {
     "id": "hadith-079",
@@ -1528,7 +1794,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-079.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-079.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ]
   },
   {
     "id": "hadith-080",
@@ -1547,7 +1817,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-080.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-080.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-081",
@@ -1566,7 +1838,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-081.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-081.reviewed.urdu.txt",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-082",
@@ -1585,7 +1861,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-082.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-082.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-083",
@@ -1604,7 +1884,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-083.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-083.reviewed.urdu.txt",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-084",
@@ -1623,7 +1907,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-084.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-084.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-085",
@@ -1644,7 +1930,11 @@
     "reviewIssues": [
       "Translation drifted from the Urdu transcript"
     ],
-    "reviewedTranscriptFileName": "hadith-085.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-085.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-086",
@@ -1663,7 +1953,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-086.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-086.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-087",
@@ -1682,7 +1976,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-087.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-087.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-088",
@@ -1705,7 +2003,11 @@
       "Translation was adjusted for precision and clarity.",
       "Summary needed refinement for accuracy."
     ],
-    "reviewedTranscriptFileName": "hadith-088.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-088.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-089",
@@ -1724,7 +2026,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-089.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-089.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-090",
@@ -1743,7 +2047,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-090.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-090.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ]
   },
   {
     "id": "hadith-091",
@@ -1764,7 +2072,11 @@
     "reviewIssues": [
       "Reworded title for practicality"
     ],
-    "reviewedTranscriptFileName": "hadith-091.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-091.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-092",
@@ -1783,7 +2095,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-092.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-092.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-093",
@@ -1802,7 +2116,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-093.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-093.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-094",
@@ -1821,7 +2139,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-094.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-094.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "character"
+    ]
   },
   {
     "id": "hadith-095",
@@ -1840,7 +2162,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-095.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-095.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-096",
@@ -1859,7 +2185,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-096.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-096.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-097",
@@ -1878,7 +2208,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-097.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-097.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-098",
@@ -1897,7 +2231,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-098.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-098.reviewed.urdu.txt",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-099",
@@ -1916,7 +2254,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-099.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-099.reviewed.urdu.txt",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": [
+      "family-community"
+    ]
   },
   {
     "id": "hadith-100",
@@ -1937,7 +2279,11 @@
     "reviewIssues": [
       "Minor discrepancies in phrase choices regarding mercy and blessings."
     ],
-    "reviewedTranscriptFileName": "hadith-100.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-100.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-101",
@@ -1956,7 +2302,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-101.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-101.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ]
   },
   {
     "id": "hadith-102",
@@ -1975,7 +2325,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-102.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-102.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-103",
@@ -1994,7 +2346,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-103.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-103.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-104",
@@ -2013,7 +2367,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-104.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-104.reviewed.urdu.txt",
+    "primaryThemeID": "family-community",
+    "secondaryThemeIDs": [
+      "worship"
+    ]
   },
   {
     "id": "hadith-105",
@@ -2032,7 +2390,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-105.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-105.reviewed.urdu.txt",
+    "primaryThemeID": "faith-trust",
+    "secondaryThemeIDs": [
+      "mercy-repentance"
+    ]
   },
   {
     "id": "hadith-106",
@@ -2054,7 +2416,9 @@
       "Title was not suitable: Changed to reflect the content more accurately.",
       "Translation required minor adjustments for clarity and retention of meaning."
     ],
-    "reviewedTranscriptFileName": "hadith-106.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-106.reviewed.urdu.txt",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-107",
@@ -2073,7 +2437,11 @@
     "reviewStatus": "corrected",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-107.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-107.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": [
+      "livelihood-charity"
+    ]
   },
   {
     "id": "hadith-108",
@@ -2094,7 +2462,9 @@
     "reviewIssues": [
       "Title was not in plain English"
     ],
-    "reviewedTranscriptFileName": "hadith-108.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-108.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-109",
@@ -2113,7 +2483,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-109.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-109.reviewed.urdu.txt",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-110",
@@ -2132,7 +2504,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-110.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-110.reviewed.urdu.txt",
+    "primaryThemeID": "worship",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-111",
@@ -2153,7 +2527,11 @@
     "reviewIssues": [
       "Minor textual differences between transcripts."
     ],
-    "reviewedTranscriptFileName": "hadith-111.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-111.reviewed.urdu.txt",
+    "primaryThemeID": "livelihood-charity",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-112",
@@ -2172,7 +2550,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-112.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-112.reviewed.urdu.txt",
+    "primaryThemeID": "quran-dhikr",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-113",
@@ -2191,7 +2571,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-113.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-113.reviewed.urdu.txt",
+    "primaryThemeID": "mercy-repentance",
+    "secondaryThemeIDs": [
+      "faith-trust"
+    ]
   },
   {
     "id": "hadith-114",
@@ -2212,7 +2596,9 @@
     "reviewIssues": [
       "Title was not clear in reflecting the content."
     ],
-    "reviewedTranscriptFileName": "hadith-114.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-114.reviewed.urdu.txt",
+    "primaryThemeID": "character",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-115",
@@ -2231,7 +2617,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-115.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-115.reviewed.urdu.txt",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-116",
@@ -2250,7 +2638,9 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-116.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-116.reviewed.urdu.txt",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": []
   },
   {
     "id": "hadith-117",
@@ -2269,7 +2659,11 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-117.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-117.reviewed.urdu.txt",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [
+      "quran-dhikr"
+    ]
   },
   {
     "id": "hadith-118",
@@ -2288,6 +2682,10 @@
     "reviewStatus": "pass",
     "reviewConfidence": "high",
     "reviewIssues": [],
-    "reviewedTranscriptFileName": "hadith-118.reviewed.urdu.txt"
+    "reviewedTranscriptFileName": "hadith-118.reviewed.urdu.txt",
+    "primaryThemeID": "ramadan-fasting",
+    "secondaryThemeIDs": [
+      "quran-dhikr"
+    ]
   }
 ]

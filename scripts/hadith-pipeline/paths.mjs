@@ -21,6 +21,7 @@ export function pipelinePaths(overrides = {}) {
     sourceManifestPath: path.join(contentDir, "hadiths.source.json"),
     manifestPath: path.join(contentDir, "hadiths.json"),
     reviewedManifestPath: path.join(contentDir, "hadiths.reviewed.json"),
+    themeManifestPath: path.join(contentDir, "hadith-themes.reviewed.json"),
     appReviewedManifestPath: path.join(workspaceRoot, "DailyHadithApp/Resources/hadiths.reviewed.json"),
     reviewDir,
     alternateTranscriptDir: path.join(reviewDir, "AlternateTranscripts"),

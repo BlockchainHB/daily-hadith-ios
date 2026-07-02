@@ -9,6 +9,8 @@ struct AudioHadith: Identifiable, Hashable, Decodable {
     let durationSeconds: TimeInterval
     let title: String
     let titleUrdu: String?
+    let primaryThemeID: String?
+    let secondaryThemeIDs: [String]?
     let summary: String
     let translation: String
     let uncertaintyNote: String
@@ -41,5 +43,14 @@ struct AudioHadith: Identifiable, Hashable, Decodable {
 
     var hasManualReviewNote: Bool {
         reviewStatus == "needs_manual_review" || !reviewIssues.isEmpty || !uncertaintyNote.isEmpty
+    }
+
+    var allThemeIDs: [String] {
+        var ids: [String] = []
+        if let primaryThemeID {
+            ids.append(primaryThemeID)
+        }
+        ids.append(contentsOf: secondaryThemeIDs ?? [])
+        return Array(Set(ids))
     }
 }

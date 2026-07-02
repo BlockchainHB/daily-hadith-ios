@@ -16,7 +16,7 @@ enum AppTab: Hashable, CaseIterable {
     var symbolName: String {
         switch self {
         case .home: "house.fill"
-        case .library: "music.note.list"
+        case .library: "book.closed.fill"
         case .settings: "gearshape.fill"
         }
     }
