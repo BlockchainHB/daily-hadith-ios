@@ -359,7 +359,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.blockchainhb.dailyhadith;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -379,7 +380,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.blockchainhb.dailyhadith;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

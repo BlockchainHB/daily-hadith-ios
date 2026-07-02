@@ -57,7 +57,7 @@ struct SettingsView: View {
     private var sectionStack: some View {
         VStack(spacing: 16) {
             SettingsGlassSection(title: "Support") {
-                Link(destination: URL(string: "https://www.islamic-relief.org/")!) {
+                Link(destination: AppLinks.charity) {
                     SettingsActionRow(
                         icon: "heart",
                         iconColor: AppTheme.primaryGreen,
@@ -102,6 +102,32 @@ struct SettingsView: View {
 
                     SettingsDivider()
 
+                    Link(destination: AppLinks.privacyPolicy) {
+                        SettingsActionRow(
+                            icon: "hand.raised",
+                            iconColor: AppTheme.primaryGreen,
+                            title: "Privacy Policy",
+                            detail: "How Daily Hadith handles data.",
+                            accessory: .externalLink
+                        )
+                    }
+                    .buttonStyle(.plain)
+
+                    SettingsDivider()
+
+                    Link(destination: AppLinks.support) {
+                        SettingsActionRow(
+                            icon: "questionmark.circle",
+                            iconColor: AppTheme.mutedGold,
+                            title: "Support",
+                            detail: "Contact us for help or corrections.",
+                            accessory: .externalLink
+                        )
+                    }
+                    .buttonStyle(.plain)
+
+                    SettingsDivider()
+
                     SettingsInfoRow(
                         icon: "info",
                         iconColor: .secondary,
@@ -133,6 +159,12 @@ struct SettingsView: View {
             playbackStore.load(hadith: first)
         }
     }
+}
+
+private enum AppLinks {
+    static let charity = URL(string: "https://www.islamic-relief.org/")!
+    static let privacyPolicy = URL(string: "https://blockchainhb.github.io/daily-hadith-ios/privacy.html")!
+    static let support = URL(string: "https://blockchainhb.github.io/daily-hadith-ios/support.html")!
 }
 
 private struct SettingsHero: View {
