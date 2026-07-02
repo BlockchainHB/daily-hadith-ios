@@ -5,6 +5,9 @@ struct SettingsView: View {
     let playbackStore: PlaybackStore
     @ObservedObject var progressStore: ListeningProgressStore
 
+    @AppStorage("dailyHadith.reminders.enabled.v1") private var remindersEnabled = false
+    @AppStorage("dailyHadith.reminders.hour.v1") private var reminderHour = 8
+    @AppStorage("dailyHadith.reminders.minute.v1") private var reminderMinute = 0
     @State private var resetConfirmation: ResetProgressConfirmation?
 
     var body: some View {
@@ -67,6 +70,13 @@ struct SettingsView: View {
                     )
                 }
                 .buttonStyle(.plain)
+            }
+
+            SettingsGlassSection(title: "Reminder") {
+                ReminderSettingsRow(
+                    remindersEnabled: reminderEnabledBinding,
+                    reminderDate: reminderDateBinding
+                )
             }
 
             SettingsGlassSection(title: "Manage") {
@@ -152,11 +162,52 @@ struct SettingsView: View {
         snapshot?.count ?? 0
     }
 
+    private var reminderEnabledBinding: Binding<Bool> {
+        Binding(
+            get: { remindersEnabled },
+            set: { newValue in
+                remindersEnabled = newValue
+                updateReminderSchedule()
+            }
+        )
+    }
+
+    private var reminderDateBinding: Binding<Date> {
+        Binding(
+            get: {
+                DailyReminderTime(hour: reminderHour, minute: reminderMinute).asDate()
+            },
+            set: { newValue in
+                let time = DailyReminderTime.from(newValue)
+                reminderHour = time.hour
+                reminderMinute = time.minute
+                updateReminderSchedule()
+            }
+        )
+    }
+
     private func resetProgress() {
         progressStore.resetAllProgress(snapshot: snapshot)
         playbackStore.stop()
         if let first = snapshot?.first {
             playbackStore.load(hadith: first)
+        }
+    }
+
+    private func updateReminderSchedule() {
+        let time = DailyReminderTime(hour: reminderHour, minute: reminderMinute)
+
+        if remindersEnabled {
+            Task {
+                let didSchedule = await DailyReminderScheduler.scheduleDailyReminder(at: time)
+                if !didSchedule {
+                    await MainActor.run {
+                        remindersEnabled = false
+                    }
+                }
+            }
+        } else {
+            DailyReminderScheduler.cancelDailyReminder()
         }
     }
 }
@@ -336,6 +387,44 @@ private struct SettingsTranslationRow: View {
                     .glassSurface(cornerRadius: 16, interactive: true)
                     .padding(.leading, 60)
             }
+        }
+        .padding(.vertical, 2)
+    }
+}
+
+private struct ReminderSettingsRow: View {
+    @Binding var remindersEnabled: Bool
+    @Binding var reminderDate: Date
+
+    var body: some View {
+        VStack(spacing: 15) {
+            HStack(spacing: 12) {
+                SettingsGlyph(systemName: "bell", color: AppTheme.primaryGreen)
+
+                VStack(alignment: .leading, spacing: 5) {
+                    Text("Daily Reminder")
+                        .font(.system(size: 18, weight: .regular, design: .serif))
+                        .foregroundStyle(AppTheme.ink)
+                    Text(remindersEnabled ? "A quiet nudge each day." : "Notifications are off.")
+                        .font(.subheadline)
+                        .foregroundStyle(AppTheme.ink.opacity(0.62))
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+                Toggle("Daily Reminder", isOn: $remindersEnabled)
+                    .labelsHidden()
+            }
+
+            DatePicker(
+                "Reminder time",
+                selection: $reminderDate,
+                displayedComponents: .hourAndMinute
+            )
+            .font(.subheadline.weight(.medium))
+            .foregroundStyle(AppTheme.ink)
+            .disabled(!remindersEnabled)
+            .opacity(remindersEnabled ? 1 : 0.42)
+            .padding(.leading, 60)
         }
         .padding(.vertical, 2)
     }

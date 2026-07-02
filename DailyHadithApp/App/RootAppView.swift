@@ -3,6 +3,10 @@ import SwiftUI
 struct RootAppView: View {
     @StateObject private var playbackStore = PlaybackStore()
     @StateObject private var progressStore = ListeningProgressStore()
+    @AppStorage("dailyHadith.onboardingCompleted.v1") private var hasCompletedOnboarding = false
+    @AppStorage("dailyHadith.reminders.enabled.v1") private var remindersEnabled = false
+    @AppStorage("dailyHadith.reminders.hour.v1") private var reminderHour = 8
+    @AppStorage("dailyHadith.reminders.minute.v1") private var reminderMinute = 0
     @State private var selectedTab: AppTab = .home
     @State private var libraryLoadState: LibraryLoadState = .loading
     @State private var playbackOrigin: PlaybackOrigin = .daily
@@ -14,9 +18,23 @@ struct RootAppView: View {
             .task {
                 await loadLibrary()
             }
+            .fullScreenCover(isPresented: onboardingPresented) {
+                OnboardingView(finish: finishOnboarding)
+            }
             .onReceive(playbackStore.$completedHadithID.compactMap { $0 }) { completedID in
                 handleCompletedHadith(completedID)
             }
+    }
+
+    private var onboardingPresented: Binding<Bool> {
+        Binding(
+            get: { !hasCompletedOnboarding },
+            set: { isPresented in
+                if !isPresented {
+                    hasCompletedOnboarding = true
+                }
+            }
+        )
     }
 
     @ViewBuilder
@@ -78,6 +96,30 @@ struct RootAppView: View {
                 progressStore: progressStore
             )
         }
+    }
+
+    @MainActor
+    private func finishOnboarding(
+        remindersEnabled shouldEnableReminders: Bool,
+        reminderTime: DailyReminderTime
+    ) async -> Bool {
+        reminderHour = reminderTime.hour
+        reminderMinute = reminderTime.minute
+        remindersEnabled = shouldEnableReminders
+
+        let didSchedule: Bool
+        if shouldEnableReminders {
+            didSchedule = await DailyReminderScheduler.scheduleDailyReminder(at: reminderTime)
+            if !didSchedule {
+                remindersEnabled = false
+            }
+        } else {
+            DailyReminderScheduler.cancelDailyReminder()
+            didSchedule = true
+        }
+
+        hasCompletedOnboarding = true
+        return didSchedule
     }
 
     private var shouldShowMiniPlayer: Bool {
