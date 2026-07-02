@@ -64,6 +64,7 @@ struct LibraryResultsView: View {
         }
         .scrollDismissesKeyboard(.interactively)
         .background(AppTheme.warmBackground)
+        .scrollIndicators(.hidden)
         .ignoresSafeArea(.container, edges: .top)
         .toolbar(.visible, for: .navigationBar)
         .toolbarBackground(.hidden, for: .navigationBar)

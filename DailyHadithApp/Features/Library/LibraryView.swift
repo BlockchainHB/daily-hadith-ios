@@ -59,6 +59,7 @@ struct LibraryView: View {
         }
         .scrollDismissesKeyboard(.interactively)
         .background(AppTheme.warmBackground)
+        .scrollIndicators(.hidden)
         .ignoresSafeArea(.container, edges: .top)
         .toolbar(.hidden, for: .navigationBar)
         .navigationDestination(isPresented: isShowingRoute) {

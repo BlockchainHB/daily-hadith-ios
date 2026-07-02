@@ -73,6 +73,7 @@ struct HomeView: View {
             }
         }
         .background(AppTheme.warmBackground)
+        .scrollIndicators(.hidden)
         .ignoresSafeArea(.container, edges: .top)
         .toolbar(.hidden, for: .navigationBar)
     }
