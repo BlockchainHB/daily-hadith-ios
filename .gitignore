@@ -6,6 +6,7 @@
 # Local source/import/export scratch space.
 exports/
 imports/
+screenshots/
 
 # Xcode and local build output.
 build/
