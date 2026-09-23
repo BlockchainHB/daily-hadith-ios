@@ -1,6 +1,8 @@
 import SwiftUI
+import UIKit
 
 struct RootAppView: View {
+    @Environment(\.scenePhase) private var scenePhase
     @StateObject private var playbackStore = PlaybackStore()
     @StateObject private var progressStore = ListeningProgressStore()
     @AppStorage("dailyHadith.onboardingCompleted.v1") private var hasCompletedOnboarding = false
@@ -23,6 +25,15 @@ struct RootAppView: View {
             }
             .onReceive(playbackStore.$completedHadithID.compactMap { $0 }) { completedID in
                 handleCompletedHadith(completedID)
+            }
+            .onReceive(playbackStore.$state) { state in
+                UIApplication.shared.isIdleTimerDisabled = scenePhase == .active && state.isPlaying
+            }
+            .onChange(of: scenePhase) { phase in
+                UIApplication.shared.isIdleTimerDisabled = phase == .active && playbackStore.state.isPlaying
+            }
+            .onDisappear {
+                UIApplication.shared.isIdleTimerDisabled = false
             }
     }
 
