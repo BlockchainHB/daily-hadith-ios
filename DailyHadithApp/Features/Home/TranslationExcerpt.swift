@@ -122,19 +122,21 @@ private enum TranslationParagraphFormatter {
 
     private static func applyHonorifics(to text: String) -> String {
         var output = text
-        let replacements = [
-            "(peace and blessings be upon him)": "ﷺ",
-            "(peace be upon him)": "ﷺ",
-            "(Allah bless him and grant him peace)": "ﷺ",
-            "peace and blessings be upon him": "ﷺ",
-            "peace be upon him": "ﷺ",
-            "Allah bless him and grant him peace": "ﷺ",
-            "(may Allah be pleased with him)": "رضي الله عنه",
-            "(may Allah be pleased with her)": "رضي الله عنها",
-            "(may Allah be pleased with them)": "رضي الله عنهم",
-            "may Allah be pleased with him": "رضي الله عنه",
-            "may Allah be pleased with her": "رضي الله عنها",
-            "may Allah be pleased with them": "رضي الله عنهم"
+        // Replace parenthesized phrases first. Dictionary iteration made the
+        // shorter replacements sometimes leave parentheses around the honorific.
+        let replacements: [(String, String)] = [
+            ("(peace and blessings be upon him)", "ﷺ"),
+            ("(peace be upon him)", "ﷺ"),
+            ("(Allah bless him and grant him peace)", "ﷺ"),
+            ("(may Allah be pleased with him)", "رضي الله عنه"),
+            ("(may Allah be pleased with her)", "رضي الله عنها"),
+            ("(may Allah be pleased with them)", "رضي الله عنهم"),
+            ("peace and blessings be upon him", "ﷺ"),
+            ("peace be upon him", "ﷺ"),
+            ("Allah bless him and grant him peace", "ﷺ"),
+            ("may Allah be pleased with him", "رضي الله عنه"),
+            ("may Allah be pleased with her", "رضي الله عنها"),
+            ("may Allah be pleased with them", "رضي الله عنهم")
         ]
 
         for (phrase, replacement) in replacements {
