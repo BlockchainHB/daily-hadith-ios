@@ -214,8 +214,8 @@ struct SettingsView: View {
 
 private enum AppLinks {
     static let charity = URL(string: "https://www.islamic-relief.org/")!
-    static let privacyPolicy = URL(string: "https://blockchainhb.github.io/daily-hadith-ios/privacy.html")!
-    static let support = URL(string: "https://blockchainhb.github.io/daily-hadith-ios/support.html")!
+    static let privacyPolicy = URL(string: "https://www.dailyhadithapp.com/privacy")!
+    static let support = URL(string: "https://www.dailyhadithapp.com/support")!
 }
 
 private struct SettingsHero: View {
