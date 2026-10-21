@@ -98,8 +98,8 @@ For OpenAI-backed enrichment, copy `.env.example` to `.env.local` and add your o
 
 Daily Hadith does not use accounts, analytics, ads, tracking, or a backend. Listening progress, playback positions, onboarding state, and reminder preferences are stored locally on device.
 
-- [Privacy Policy](docs/privacy.html)
-- [Support](docs/support.html)
+- [Privacy Policy](https://www.dailyhadithapp.com/privacy)
+- [Support](https://www.dailyhadithapp.com/support)
 
 ## Content Rights
 
